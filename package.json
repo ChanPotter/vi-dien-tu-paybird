@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "react-router-dom": "^7.1.5"
+  },
+  "devDependencies": {
+    "prettier": "3.4.2"
+  }
+}
