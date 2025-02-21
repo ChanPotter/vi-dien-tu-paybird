@@ -58,6 +58,11 @@ export class ServiceCard extends LitElement {
 			color: #718096;
 			text-align: center;
 		}
+		@media (max-width: 655px) {
+			.description {
+				display: none; /* Ẩn khi màn hình dưới 500px */
+			}
+		}
 	`;
 
 	render() {

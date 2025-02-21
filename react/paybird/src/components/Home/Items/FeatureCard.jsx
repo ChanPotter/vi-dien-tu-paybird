@@ -1,20 +1,16 @@
 // eslint-disable-next-line react/prop-types
-export function FeatureCard({ color, iconBg, title, description }) {
+export function FeatureCard({ iconBg }) {
 	return (
-		<div className="relative flex flex-col items-center w-full p-1 md:flex-row md:items-center md:space-x-4">
+		<div className="relative flex flex-col items-center sm:flex-row sm:items-center sm:space-x-4">
 			{/* Icon Section */}
 			<div
-				className={`w-20 h-20 flex items-center justify-center rounded-xl ${iconBg} md:w-28 md:h-28`}
+				className={`flex items-center justify-center rounded-full ${iconBg} max-w-[500px]:w-10 max-w-[500px]:h-10 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-28 lg:h-28`}
 			>
-				<span className="text-black text-4xl md:text-6xl">🎁</span>
+				<span className="text-black text-xl max-w-[500px]:text-xl sm:text-3xl md:text-4xl lg:text-6xl">
+					🎁
+				</span>
 			</div>
 			{/* Content Section */}
-			<div
-				className={`flex-1 mt-4 p-6 text-white text-center ${color} rounded-xl md:text-left md:py-6`}
-			>
-				<h3 className="text-2xl font-bold md:text-4xl">{title}</h3>
-				<p className="text-base md:text-lg">{description}</p>
-			</div>
 		</div>
 	);
 }

@@ -32,7 +32,7 @@ const services = [
 	{
 		title: 'Thanh toán tại quầy',
 		description:
-			'Thanh toán trực tiếp tại quầy qua các mã QR vô cùng nhanh chóng, tiện lợi',
+			'Thanh toán trực tiếp tại quầy qua các mã QR vô cùng nhanh chóng',
 		icon: renderToString(<FaQrcode />),
 		bgColor: '#f59e0b', // Màu vàng
 	},

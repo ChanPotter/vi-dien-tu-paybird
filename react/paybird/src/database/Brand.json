@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Tiktok",
+		"logo": "/src/assets/logo/Tiktok.png"
+	},
+	{
+		"name": "ASOS",
+		"logo": "/src/assets/logo/Start.png"
+	},
+	{
+		"name": "eBay",
+		"logo": "/src/assets/logo/Ebay.png"
+	},
+	{
+		"name": "Facebook",
+		"logo": "/src/assets/logo/Facebook.png"
+	},
+	{
+		"name": "iHerb",
+		"logo": "/src/assets/logo/IHert.png"
+	},
+	{
+		"name": "Shoppe",
+		"logo": "/src/assets/logo/Shoppe.jpg"
+	},
+	{
+		"name": "Highlands Coffee",
+		"logo": "/src/assets/logo/Highlands Coffee.jpg"
+	},
+	{
+		"name": "Shoppe Food",
+		"logo": "/src/assets/logo/shopeefood.png"
+	}
+]

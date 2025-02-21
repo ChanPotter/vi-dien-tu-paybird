@@ -17,47 +17,54 @@ export class TransactionCard extends LitElement {
 			width: 100%;
 		}
 		.card {
-			border-radius: 10px;
+			border-radius: 30px;
 			padding: 20px;
 			text-align: center;
 			color: white;
 			width: 220px;
-			box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+			box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
+				0px 0px 10px rgba(255, 105, 180, 0.5); /* Bóng màu hồng */
 			transition: transform 0.2s ease-in-out;
+			display: flex;
+			flex-direction: column;
+			justify-content: center; /* Căn giữa theo chiều dọc */
+			align-items: center; /* Căn giữa theo chiều ngang */
+			height: 270px; /* Đảm bảo đủ chiều cao để căn giữa */
 		}
+
 		.card:hover {
 			transform: translateY(-5px);
 		}
 		.icon-container {
+			width: 105px;
+			height: 105px; /* Thêm chiều cao để tạo ra hình tròn hoàn chỉnh */
 			background: white;
-			border-radius: 10px;
+			border-radius: 50%;
 			padding: 15px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			margin-bottom: 10px;
 		}
+
 		.icon {
-			width: 90px;
+			width: 95px;
 			height: 95px;
-		}
-		.title {
-			font-size: 18px;
-			font-weight: bold;
-			margin: 5px 0;
 		}
 		.description {
 			font-size: 14px;
-			margin-bottom: 10px;
+			margin-bottom: 12px;
 		}
 		.card button {
 			border: none;
-			border-radius: 5px;
-			padding: 10px 20px;
+			border-radius: 50px;
+			padding: 12px 25px;
 			cursor: pointer;
 			background: white;
 			color: black;
-			font-weight: bold;
+			font-weight: 700;
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
 		}
 
 		/* Responsive cho màn hình nhỏ */

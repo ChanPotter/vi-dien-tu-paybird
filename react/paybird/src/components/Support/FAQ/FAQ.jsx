@@ -14,7 +14,8 @@ const FAQ = () => {
 			<h2 className="text-4xl font-bold text-center mb-8 text-gray-700">
 				Frequently Asked Questions
 			</h2>
-			<h3 className="text-2xl text-gray-500 mb-8">
+			<h3 className="text-2xl text-gray-500 
+			mb-8">
 				Everything you need to know about our amazing services.
 			</h3>
 			<div>

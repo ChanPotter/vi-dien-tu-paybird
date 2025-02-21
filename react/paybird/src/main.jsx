@@ -12,6 +12,8 @@ import About from './components/About/About';
 import Dashboard from './components/Dashboard/Dashboard';
 import Wallet from './components/wallet/Wallet';
 import DashboardSupport from './components/Support/DashboardSupport';
+import Transfer from './components/TransferMoney/Transfer';
+import Receive from './components/ReceiveMoney/Receive';
 
 createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
@@ -27,6 +29,8 @@ createRoot(document.getElementById('root')).render(
 				<Route path="/About" element={<About />} />
 				<Route path="/Wallet" element={<Wallet />} />
 				<Route path="/Dashboard/Support" element={<DashboardSupport />} />
+				<Route path="/Dashboard/Transfer" element={<Transfer />} />
+				<Route path="/Dashboard/Receive" element={<Receive />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

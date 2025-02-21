@@ -41,7 +41,7 @@ const Header = ({ className }) => {
 	};
 
 	return (
-		<Disclosure as="nav" className={`bg-blue-800 ${className}`}>
+		<Disclosure as="nav" className={`bg-blue-700 ${className}`}>
 			{({ open, close }) => (
 				<>
 					{/* Overlay (đóng menu khi bấm ra ngoài) */}

@@ -47,6 +47,7 @@ const Home = () => {
 			</div>
 
 			<Service></Service>
+
 			<BrandList></BrandList>
 			<Footer></Footer>
 		</div>

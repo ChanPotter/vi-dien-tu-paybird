@@ -1,5 +1,5 @@
 import Marquee from 'react-fast-marquee';
-import { brands } from '../Home/Logo/Data';
+import brands from '../../database/Brand.json';
 
 const BrandList = () => {
 	return (
