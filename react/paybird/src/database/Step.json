@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"description": "Đăng nhập ứng dụng ngân hàng đang dùng"
+	},
+	{
+		"id": 2,
+		"description": "Chọn chuyển khoản đến số thẻ"
+	},
+	{
+		"id": 3,
+		"description": "Nhập số tiền và thông tin người nhận"
+	},
+	{
+		"id": 4,
+		"description": "Kiểm tra thông tin"
+	},
+	{
+		"id": 5,
+		"description": "Xác nhận giao dịch để nạp tiền"
+	}
+]
