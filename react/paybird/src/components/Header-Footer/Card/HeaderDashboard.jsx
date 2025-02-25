@@ -14,7 +14,7 @@ import Notification from '../../Notification/Notification';
 const navigation = [
 	{ name: 'TRANG CHỦ', href: '/Dashboard', current: true, status: true },
 	{ name: 'VÍ ĐIỆN TỬ', href: '/Wallet', current: false, status: true },
-	{ name: 'HOẠT ĐỘNG', href: '/Active', current: false, status: true },
+	{ name: 'HOẠT ĐỘNG', href: '/History', current: false, status: true },
 	{
 		name: 'TRỢ GIÚP',
 		href: '/Dashboard/Support',
@@ -82,7 +82,7 @@ const Header = ({ className }) => {
     								min-[1118px]:justify-start min-[1118px]:!pl-0"
 							>
 								<div className="flex shrink-0 items-center">
-									<Link to="/">
+									<Link to="/Dashboard">
 										<img
 											alt="Your Company"
 											src={bang}
@@ -98,7 +98,7 @@ const Header = ({ className }) => {
 												<Link
 													to={item.href}
 													key={item.name}
-													className={`rounded-md px-3 py-2 text-sm font-medium transition ${
+													className={`rounded-md px-3 py-2 text-[0.85rem] font-medium transition ${
 														location.pathname === item.href
 															? 'bg-gray-900 text-white'
 															: 'text-white hover:bg-gray-700 hover:text-white'

@@ -21,9 +21,11 @@ const LinkBank = () => {
 						Hãy tham gia cùng hàng triệu khách hàng sử dụng PayPal để thanh toán
 						cho các giao dịch mua sắm hàng ngày mọi lúc mọi nơi.
 					</p>
-					<button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-2xl hover:bg-blue-700">
-						Liên kết ngân hàng
-					</button>
+					<Link to="/Dashboard/SelectBank">
+						<button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-2xl hover:bg-blue-700">
+							Liên kết ngân hàng
+						</button>
+					</Link>
 				</div>
 
 				{/* Cột 2 (1 phần): Dấu cộng */}
@@ -43,21 +45,24 @@ const LinkBank = () => {
 								</h2>
 
 								{/* Danh sách phương thức nạp tiền */}
-								<div className="space-y-3">
+								<div className="space-y-6">
 									{/* Liên kết ngân hàng - Option 1 */}
-									<div className="flex items-center p-4 border rounded-lg shadow cursor-pointer hover:bg-gray-100">
-										<img
-											src={bank}
-											alt="Ngân hàng"
-											className="w-12 h-12 mr-4"
-										/>
-										<div>
-											<p className="font-semibold">Liên kết ngân hàng</p>
-											<p className="text-sm text-gray-600">
-												Nạp tiền miễn phí từ ngân hàng ngay trên website PayBird
-											</p>
+									<Link to="/Dashboard/SelectBank">
+										<div className="flex items-center p-4 border rounded-lg shadow cursor-pointer hover:bg-gray-100 mb-2">
+											<img
+												src={bank}
+												alt="Ngân hàng"
+												className="w-12 h-12 mr-4"
+											/>
+											<div>
+												<p className="font-semibold">Liên kết ngân hàng</p>
+												<p className="text-sm text-gray-600">
+													Nạp tiền miễn phí từ ngân hàng ngay trên website
+													PayBird
+												</p>
+											</div>
 										</div>
-									</div>
+									</Link>
 
 									{/* Liên kết ngân hàng - Option 2 (Thẻ) */}
 									<Link to="/Dashboard/LinkCard">

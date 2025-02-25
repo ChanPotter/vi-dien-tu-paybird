@@ -15,6 +15,8 @@ import DashboardSupport from './components/Support/DashboardSupport';
 import Transfer from './components/TransferMoney/Transfer';
 import Receive from './components/ReceiveMoney/Receive';
 import LinkCard from './components/Link/Card/LinkCard';
+import { SelectBank, Transaction } from './components/Link/index';
+import History from './components/History/History';
 
 createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
@@ -33,6 +35,9 @@ createRoot(document.getElementById('root')).render(
 				<Route path="/Dashboard/Transfer" element={<Transfer />} />
 				<Route path="/Dashboard/Receive" element={<Receive />} />
 				<Route path="/Dashboard/LinkCard" element={<LinkCard />} />
+				<Route path="/Dashboard/SelectBank" element={<SelectBank />} />
+				<Route path="/Dashboard/SelectBank/:id" element={<Transaction />} />
+				<Route path="/History" element={<History />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

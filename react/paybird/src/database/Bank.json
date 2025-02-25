@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"name": "MBBank",
+		"description": "Ngân hàng TMCP Quân Đội",
+		"image": "/src/assets/bank/MBBank.webp"
+	},
+	{
+		"id": 2,
+		"name": "AriBank",
+		"description": "Ngân hàng TMCP Quân Đội",
+		"image": "/src/assets/bank/ARIBANK.jpg"
+	},
+	{
+		"id": 3,
+		"name": "BIDV",
+		"description": "Ngân hàng TMCP Đầu Tư và Phát Triển Việt Nam",
+		"image": "/src/assets/bank/BIDV.webp"
+	},
+	{
+		"id": 4,
+		"name": "ACB",
+		"description": "Ngân hàng TMCP Á Châu",
+		"image": "/src/assets/bank/ACBBank.webp"
+	},
+	{
+		"id": 5,
+		"name": "TPBank",
+		"description": "Ngân hàng TMCP Tiên Phong",
+		"image": "/src/assets/bank/TPBank.webp"
+	},
+	{
+		"id": 6,
+		"name": "VietinBank",
+		"description": "Ngân hàng TMCP Ngoại thương Việt Nam",
+		"image": "/src/assets/bank/VietinBank.webp"
+	},
+	{
+		"id": 7,
+		"name": "VPBank",
+		"description": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+		"image": "/src/assets/bank/VPBank.webp"
+	}
+]
