@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import { Header, Footer } from '../Header-Footer/index';
-import { SearchBar } from './SearchBar';
+import { SearchBarHome } from './Search/SearchBarHome';
 import ServiceSupport from './ServiceSupport';
 import FAQ from './FAQ/FAQ';
 
 const HomeSupport = () => {
+	const [searchQuery, setSearchQuery] = useState('');
 	return (
 		<div className="min-h-screen bg-gray-100 container-fluid">
 			<Header className="shadow-lg" />
@@ -17,7 +19,11 @@ const HomeSupport = () => {
 							Chúng tôi có thể giúp gì cho bạn?
 						</p>
 					</div>
-					<SearchBar className="w-full !max-w-lg mx-auto" />
+					<SearchBarHome
+						searchQuery={searchQuery}
+						setSearchQuery={setSearchQuery}
+						className="w-full !max-w-lg mx-auto"
+					/>
 				</div>
 			</div>
 			<div className="mb-3">

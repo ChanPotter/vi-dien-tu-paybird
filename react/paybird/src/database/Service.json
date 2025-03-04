@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"name": "Nạp Điện Thoại",
+		"icon": "/src/assets/services/phone.png"
+	},
+	{ "id": 2, "name": "Thanh Toán HD", "icon": "/src/assets/services/bill.png" },
+	{ "id": 3, "name": "Vé Phim", "icon": "/src/assets/services/camcorder.png" },
+	{ "id": 4, "name": "Phương Tiện", "icon": "/src/assets/services/car.png" },
+	{ "id": 5, "name": "Khoản Vay", "icon": "/src/assets/services/loan.png" },
+	{ "id": 6, "name": "Du Lịch", "icon": "/src/assets/services/travel.png" },
+	{ "id": 7, "name": "Nạp 3G/4G", "icon": "/src/assets/services/4g.png" },
+	{ "id": 8, "name": "Tất Cả", "icon": "/src/assets/services/menu.png" }
+]

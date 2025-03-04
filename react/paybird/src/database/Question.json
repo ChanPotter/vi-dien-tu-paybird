@@ -1,0 +1,115 @@
+[
+	{
+		"id": 1,
+		"question": "Làm thế nào để đăng ký tài khoản?",
+		"explain": "Đăng ký tài khoản trên PayBird là bước đầu tiên để bạn có thể sử dụng toàn bộ các dịch vụ như thanh toán hóa đơn, mua sắm trên Marketplace, và quản lý thông tin cá nhân một cách an toàn và hiệu quả. Quá trình này được thiết kế đơn giản, nhanh chóng, giúp bạn dễ dàng tham gia vào hệ sinh thái dịch vụ của chúng tôi, đồng thời mang lại trải nghiệm cá nhân hóa và bảo mật cao.",
+		"steps": [
+			"Truy cập trang đăng ký trên website chính thức của PayBird hoặc ứng dụng di động.",
+			"Nhập đầy đủ thông tin cá nhân của bạn, bao gồm họ tên, email, số điện thoại, và ngày sinh để đảm bảo tính chính xác và bảo mật.",
+			"Tạo một mật khẩu mạnh, bao gồm ít nhất 8 ký tự, kết hợp chữ cái, số và ký tự đặc biệt, sau đó xác nhận lại mật khẩu để tránh lỗi nhập liệu.",
+			"Đọc kỹ các điều khoản và điều kiện dịch vụ, sau đó nhấn nút 'Đăng ký' để hoàn tất quá trình và nhận email xác nhận."
+		]
+	},
+	{
+		"id": 2,
+		"question": "Làm thế nào để đặt hàng?",
+		"explain": "Đặt hàng trên PayBird giúp bạn mua sắm các sản phẩm và dịch vụ một cách nhanh chóng, tiện lợi và an toàn, với giao diện thân thiện và nhiều lựa chọn thanh toán linh hoạt. Hệ thống Marketplace của chúng tôi cung cấp đa dạng sản phẩm từ nhiều nhà cung cấp, đảm bảo chất lượng và giá cả cạnh tranh, đồng thời hỗ trợ theo dõi đơn hàng dễ dàng.",
+		"steps": [
+			"Đăng nhập vào tài khoản PayBird của bạn bằng email và mật khẩu hoặc xác thực hai yếu tố (2FA) nếu đã bật.",
+			"Sử dụng thanh tìm kiếm hoặc duyệt qua các danh mục sản phẩm để tìm kiếm sản phẩm bạn muốn mua, sau đó nhấn vào sản phẩm để xem chi tiết thông tin như mô tả, giá cả, và đánh giá từ người dùng khác.",
+			"Nhấn vào sản phẩm để xem chi tiết, kiểm tra các thông tin như kích thước, màu sắc, và chính sách đổi trả, sau đó chọn số lượng mong muốn và nhấn nút 'Thêm vào giỏ hàng' để lưu sản phẩm.",
+			"Kiểm tra giỏ hàng để đảm bảo các sản phẩm được chọn chính xác, điều chỉnh số lượng nếu cần, rồi nhấn nút 'Thanh toán' để tiếp tục.",
+			"Nhập thông tin giao hàng chính xác (địa chỉ, số điện thoại liên lạc), chọn phương thức thanh toán phù hợp (thẻ tín dụng, chuyển khoản, ví điện tử), và kiểm tra lại thông tin trước khi nhấn 'Xác nhận' để hoàn tất đơn hàng.",
+			"Theo dõi trạng thái đơn hàng trong phần 'Lịch sử giao dịch' hoặc nhận thông báo qua email/SMS để biết tiến trình giao hàng."
+		]
+	},
+	{
+		"id": 3,
+		"question": "Làm thế nào để liên hệ hỗ trợ?",
+		"explain": "Liên hệ hỗ trợ trên PayBird giúp bạn giải quyết các vấn đề, thắc mắc hoặc yêu cầu hỗ trợ liên quan đến dịch vụ một cách nhanh chóng và hiệu quả. Đội ngũ hỗ trợ của chúng tôi hoạt động 24/7, sẵn sàng giải đáp qua nhiều kênh như email, điện thoại, hoặc chat trực tuyến, đảm bảo bạn nhận được sự hỗ trợ tốt nhất trong thời gian sớm nhất.",
+		"steps": [
+			"Truy cập trang 'Liên hệ' trên website chính thức của PayBird hoặc tìm mục 'Hỗ trợ' trong ứng dụng di động.",
+			"Điền đầy đủ thông tin của bạn vào form liên hệ, bao gồm tên, email, số điện thoại liên lạc, và bất kỳ thông tin bổ sung nào để giúp chúng tôi hiểu rõ hơn về vấn đề của bạn.",
+			"Nhập chi tiết nội dung cần hỗ trợ vào ô 'Nội dung', mô tả rõ ràng vấn đề, thời gian xảy ra, và các thông tin liên quan (nếu có) để đội ngũ hỗ trợ xử lý nhanh hơn.",
+			"Nhấn nút 'Gửi' để gửi yêu cầu hỗ trợ, sau đó kiểm tra email hoặc số điện thoại của bạn để nhận phản hồi từ đội ngũ PayBird, thường trong vòng 24-48 giờ."
+		]
+	},
+	{
+		"id": 4,
+		"question": "Làm thế nào để đổi mật khẩu?",
+		"explain": "Đổi mật khẩu trên PayBird là một cách quan trọng để bảo mật tài khoản của bạn, ngăn chặn truy cập trái phép và đảm bảo an toàn cho các giao dịch và thông tin cá nhân. Quá trình này được thiết kế đơn giản, chỉ mất vài phút, nhưng mang lại sự an tâm tuyệt đối cho người dùng.",
+		"steps": [
+			"Đăng nhập vào tài khoản PayBird của bạn bằng email và mật khẩu hiện tại hoặc sử dụng xác thực hai yếu tố (nếu đã bật).",
+			"Truy cập trang 'Cài đặt tài khoản' trong phần hồ sơ cá nhân, nơi bạn có thể quản lý các thông tin bảo mật.",
+			"Tìm và chọn mục 'Đổi mật khẩu' trong danh sách cài đặt, sau đó nhập mật khẩu cũ để xác minh quyền sở hữu tài khoản.",
+			"Nhập mật khẩu mới (ít nhất 8 ký tự, kết hợp chữ cái, số, và ký tự đặc biệt) và xác nhận lại mật khẩu mới để đảm bảo không có lỗi nhập liệu.",
+			"Nhấn nút 'Lưu' để hoàn tất, sau đó hệ thống sẽ yêu cầu đăng nhập lại với mật khẩu mới để đảm bảo an toàn."
+		]
+	},
+	{
+		"id": 5,
+		"question": "Làm thế nào để thanh toán hóa đơn điện?",
+		"explain": "Thanh toán hóa đơn điện trên PayBird giúp bạn quản lý và thanh toán các hóa đơn một cách nhanh chóng, tiện lợi, giảm thiểu rủi ro quên hạn thanh toán và tiết kiệm thời gian. Dịch vụ này tích hợp nhiều nhà cung cấp điện lực, đảm bảo giao dịch an toàn và minh bạch, đồng thời cung cấp lịch sử thanh toán để bạn theo dõi dễ dàng.",
+		"steps": [
+			"Truy cập phần 'Thanh toán hóa đơn' trên website hoặc ứng dụng PayBird, sau đó chọn danh mục 'Hóa đơn điện' trong danh sách dịch vụ.",
+			"Nhập thông tin hóa đơn của bạn, bao gồm mã khách hàng, số hợp đồng, hoặc mã hóa đơn được cung cấp bởi nhà cung cấp điện, cùng với số tiền cần thanh toán.",
+			"Kiểm tra lại thông tin để đảm bảo chính xác, sau đó chọn phương thức thanh toán phù hợp (thẻ tín dụng, chuyển khoản ngân hàng, hoặc ví điện tử PayBird).",
+			"Nhấn nút 'Xác nhận' để hoàn tất giao dịch, sau đó bạn sẽ nhận được thông báo xác nhận qua email hoặc SMS, cùng với biên lai điện tử lưu trữ trong tài khoản PayBird."
+		]
+	},
+	{
+		"id": 6,
+		"question": "Làm thế nào để đăng bán sản phẩm trên Marketplace?",
+		"explain": "Đăng bán sản phẩm trên Marketplace của PayBird giúp bạn tiếp cận với hàng triệu khách hàng tiềm năng, tăng cơ hội bán hàng và xây dựng thương hiệu cá nhân hoặc doanh nghiệp. Hệ thống hỗ trợ các công cụ quản lý sản phẩm, phân tích dữ liệu bán hàng, và đảm bảo giao dịch an toàn, minh bạch.",
+		"steps": [
+			"Đăng nhập vào tài khoản PayBird của bạn bằng email và mật khẩu, đảm bảo tài khoản đã được xác minh để có quyền truy cập Marketplace.",
+			"Truy cập phần 'Marketplace' trên giao diện chính, sau đó chọn mục 'Đăng bán sản phẩm' để bắt đầu quá trình đăng tin.",
+			"Điền đầy đủ thông tin sản phẩm, bao gồm tên sản phẩm, mô tả chi tiết, giá bán, số lượng, hình ảnh minh họa, và chính sách giao hàng/đổi trả, để thu hút khách hàng.",
+			"Nhấn nút 'Đăng' để hoàn tất, sau đó kiểm tra trạng thái sản phẩm trong phần 'Quản lý sản phẩm' và theo dõi lượt xem, đơn hàng từ khách hàng."
+		]
+	},
+	{
+		"id": 7,
+		"question": "Làm thế nào để theo dõi trạng thái khiếu nại?",
+		"explain": "Theo dõi trạng thái khiếu nại trên PayBird giúp bạn nắm bắt tiến trình xử lý yêu cầu của mình, đảm bảo mọi vấn đề được giải quyết một cách công bằng và minh bạch. Hệ thống hỗ trợ cập nhật trạng thái theo thời gian thực, giúp bạn yên tâm và tiết kiệm thời gian kiểm tra.",
+		"steps": [
+			"Truy cập phần 'Trung tâm giải quyết tranh chấp' trên website hoặc ứng dụng PayBird, sau đó chọn mục 'Theo dõi khiếu nại' để xem danh sách yêu cầu của bạn.",
+			"Nhập mã khiếu nại của bạn, được cung cấp khi bạn gửi yêu cầu, hoặc chọn từ danh sách khiếu nại đã đăng ký trước đó.",
+			"Xem chi tiết trạng thái khiếu nại, bao gồm ngày gửi, ngày xử lý, và thông tin phản hồi từ đội ngũ hỗ trợ, cùng với các bước tiếp theo (nếu có).",
+			"Nếu cần cập nhật thêm thông tin, bạn có thể liên hệ trực tiếp qua email hoặc số tổng đài của PayBird để nhận sự hỗ trợ chi tiết hơn."
+		]
+	},
+	{
+		"id": 8,
+		"question": "Làm thế nào để bật xác thực hai yếu tố (2FA)?",
+		"explain": "Bật xác thực hai yếu tố (2FA) trên PayBird giúp tăng cường bảo mật cho tài khoản của bạn, giảm thiểu rủi ro bị xâm nhập bởi các bên thứ ba. Đây là một lớp bảo mật bổ sung, yêu cầu mã xác nhận từ thiết bị di động hoặc ứng dụng xác thực, mang lại sự an tâm tuyệt đối khi thực hiện các giao dịch quan trọng.",
+		"steps": [
+			"Truy cập phần 'Bảo mật tài khoản' trong cài đặt cá nhân trên website hoặc ứng dụng PayBird.",
+			"Chọn mục 'Xác thực hai yếu tố', sau đó làm theo hướng dẫn để liên kết tài khoản với ứng dụng xác thực (như Google Authenticator hoặc Authy) hoặc nhận mã qua SMS.",
+			"Quét mã QR hoặc nhập mã bí mật được cung cấp, sau đó nhập mã xác nhận từ ứng dụng hoặc SMS để hoàn tất liên kết.",
+			"Xác nhận qua email hoặc số điện thoại đã đăng ký để kích hoạt 2FA, sau đó sử dụng mã xác nhận mỗi khi đăng nhập hoặc thực hiện giao dịch quan trọng."
+		]
+	},
+	{
+		"id": 9,
+		"question": "Làm thế nào để xóa lịch sử giao dịch?",
+		"explain": "Xóa lịch sử giao dịch trên PayBird giúp bạn quản lý thông tin cá nhân, bảo mật dữ liệu, và giữ cho giao diện tài khoản của bạn gọn gàng, dễ theo dõi. Tuy nhiên, một số giao dịch quan trọng có thể được lưu trữ trong hệ thống để phục vụ mục đích kiểm tra hoặc pháp lý, tùy thuộc vào chính sách của PayBird.",
+		"steps": [
+			"Truy cập phần 'Lịch sử giao dịch' trong tài khoản của bạn, nơi liệt kê tất cả các giao dịch đã thực hiện.",
+			"Chọn giao dịch bạn muốn xóa bằng cách nhấn vào chi tiết giao dịch và kiểm tra xem giao dịch có đủ điều kiện để xóa hay không (theo chính sách bảo mật của PayBird).",
+			"Nhấn nút 'Xóa' và xác nhận hành động, sau đó hệ thống sẽ xử lý yêu cầu và cập nhật lại lịch sử giao dịch của bạn.",
+			"Kiểm tra lại phần 'Lịch sử giao dịch' để đảm bảo giao dịch đã được xóa, và lưu ý rằng một số giao dịch có thể không xóa được nếu liên quan đến pháp lý hoặc thuế."
+		]
+	},
+	{
+		"id": 10,
+		"question": "Làm thế nào để yêu cầu hoàn tiền?",
+		"explain": "Yêu cầu hoàn tiền trên PayBird giúp bạn nhận lại tiền từ các giao dịch không thành công, sản phẩm lỗi, hoặc dịch vụ không hài lòng, đảm bảo quyền lợi của người dùng một cách công bằng và minh bạch. Quy trình này được thiết kế đơn giản, nhanh chóng, và được đội ngũ hỗ trợ xử lý trong thời gian ngắn nhất có thể.",
+		"steps": [
+			"Truy cập phần 'Trung tâm giải quyết tranh chấp' trên website hoặc ứng dụng PayBird, sau đó chọn mục 'Yêu cầu hoàn tiền' để bắt đầu quá trình.",
+			"Chọn giao dịch bạn muốn yêu cầu hoàn tiền, nhập thông tin chi tiết về lý do yêu cầu (ví dụ: sản phẩm lỗi, không nhận được hàng, hoặc dịch vụ không đúng cam kết).",
+			"Cung cấp bằng chứng nếu có (hình ảnh, video, biên lai, hoặc tin nhắn liên quan) để tăng tính thuyết phục và giúp đội ngũ xử lý nhanh hơn.",
+			"Nhấn nút 'Gửi' để gửi yêu cầu, sau đó theo dõi trạng thái hoàn tiền trong phần 'Theo dõi khiếu nại' và nhận thông báo qua email hoặc SMS khi yêu cầu được phê duyệt hoặc cần bổ sung thông tin."
+		]
+	}
+]

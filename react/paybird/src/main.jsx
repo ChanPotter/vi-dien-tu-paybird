@@ -17,6 +17,16 @@ import Receive from './components/ReceiveMoney/Receive';
 import LinkCard from './components/Link/Card/LinkCard';
 import { SelectBank, Transaction } from './components/Link/index';
 import History from './components/History/History';
+import { Detail, DetailSupportHome } from './components/Support/Details/index';
+import Setting from './components/Setting/Setting';
+import Profile from './components/Profile/Profile';
+import Referral from './components/Referral/Referral';
+import ChangePassword from './components/ChangePassword/ChangePassword';
+import Notification from './components/Notification/Notification';
+import Store from './components/Store/Store';
+import Recharge from './components/PhoneRecharge/Recharge';
+import DepositAndWithdraw from './components/DepositAndWithdraw/DepositAndWithdraw';
+import Internet from './components/Internet/Internet';
 
 createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
@@ -27,17 +37,28 @@ createRoot(document.getElementById('root')).render(
 				<Route path="/Login" element={<Login />} />
 				<Route path="/Signup" element={<Signup />} />
 				<Route path="/Support" element={<Support />} />
+				<Route path="/Support/:id" element={<DetailSupportHome />} />
 				<Route path="/Dashboard" element={<Dashboard />} />
 				<Route path="/Pricing" element={<Pricing />} />
 				<Route path="/About" element={<About />} />
 				<Route path="/Wallet" element={<Wallet />} />
 				<Route path="/Dashboard/Support" element={<DashboardSupport />} />
+				<Route path="/Dashboard/Support/:id" element={<Detail />} />
 				<Route path="/Dashboard/Transfer" element={<Transfer />} />
 				<Route path="/Dashboard/Receive" element={<Receive />} />
 				<Route path="/Dashboard/LinkCard" element={<LinkCard />} />
 				<Route path="/Dashboard/SelectBank" element={<SelectBank />} />
 				<Route path="/Dashboard/SelectBank/:id" element={<Transaction />} />
+				<Route path="/Dashboard/Deposit" element={<DepositAndWithdraw />} />
 				<Route path="/History" element={<History />} />
+				<Route path="/Setting" element={<Setting />} />
+				<Route path="/Notification" element={<Notification />} />
+				<Route path="/Setting/Profile" element={<Profile />} />
+				<Route path="/Setting/Referral" element={<Referral />} />
+				<Route path="/Setting/ChangePassword" element={<ChangePassword />} />
+				<Route path="/Setting/Store" element={<Store />} />
+				<Route path="/Dashboard/1" element={<Recharge />} />
+				<Route path="/Dashboard/7" element={<Internet />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

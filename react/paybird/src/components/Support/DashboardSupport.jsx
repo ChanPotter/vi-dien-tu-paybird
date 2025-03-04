@@ -1,9 +1,11 @@
-import { Footer, HeaderDashboard } from '../Header-Footer/index';
-import { SearchBar } from './SearchBar';
+import { useState } from 'react';
+import { HeaderDashboard, Footer } from '../Header-Footer/index';
+import { SearchBar } from './Search/SearchBar';
 import ServiceSupport from './ServiceSupport';
 import FAQ from './FAQ/FAQ';
 
 const DashboardSupport = () => {
+	const [searchQuery, setSearchQuery] = useState('');
 	return (
 		<div className="min-h-screen bg-gray-100 container-fluid">
 			<HeaderDashboard />
@@ -17,7 +19,11 @@ const DashboardSupport = () => {
 							Chúng tôi có thể giúp gì cho bạn?
 						</p>
 					</div>
-					<SearchBar className="w-full !max-w-lg mx-auto" />
+					<SearchBar
+						searchQuery={searchQuery}
+						setSearchQuery={setSearchQuery}
+						className="w-full !max-w-lg mx-auto"
+					/>
 				</div>
 			</div>
 			<div className="mb-3">

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { MyDropdown } from '../lit-wrapper';
 
 // eslint-disable-next-line react/prop-types
 export function DropDown({ children }) {
@@ -34,46 +35,7 @@ export function DropDown({ children }) {
 			</button>
 
 			{/* Menu dropdown */}
-			{isOpen && (
-				<div className="absolute left-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-56 dark:bg-gray-700">
-					<ul className="py-2 text-sm text-black dark:text-gray-200">
-						<Link to="/Login">
-							<li>
-								<a
-									href="#"
-									className="block px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-600"
-								>
-									Pay with PayBird
-								</a>
-							</li>
-							<li>
-								<a
-									href="#"
-									className="block px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-600"
-								>
-									Shop Online Securely
-								</a>
-							</li>
-							<li>
-								<a
-									href="#"
-									className="block px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-600"
-								>
-									Buyer Protection
-								</a>
-							</li>
-							<li>
-								<a
-									href="#"
-									className="block px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-600"
-								>
-									Send Payment
-								</a>
-							</li>
-						</Link>
-					</ul>
-				</div>
-			)}
+			{isOpen && <MyDropdown></MyDropdown>}
 		</div>
 	);
 }

@@ -8,7 +8,7 @@ export class MyButton extends LitElement {
 			border: none;
 			border-radius: 0.5rem;
 			font-size: 0.875rem;
-			padding: 0.65rem 1.25rem;
+			padding: 0.65rem 0.7rem;
 			cursor: pointer;
 			transition: background-color 0.2s;
 		}

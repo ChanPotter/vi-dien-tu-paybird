@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import bank from '../../../../database/Bank.json';
+import { MyAllBankCard } from '../../../lit-wrapper';
 import { useNavigate } from 'react-router-dom';
 
-// eslint-disable-next-line react/prop-types
 const MultipleBank = ({ searchQuery }) => {
 	const navigate = useNavigate();
 
@@ -26,23 +26,11 @@ const MultipleBank = ({ searchQuery }) => {
 			<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 mb-10 p-4">
 				{filteredBanks.length > 0 ? (
 					filteredBanks.map((item) => (
-						<div
+						<MyAllBankCard
 							key={item.id}
+							item={JSON.stringify(item)}
 							onClick={() => handleClick(item.id)}
-							className="flex items-center rounded-lg p-4 bg-white hover:shadow-lg transition borde space-x-4 cursor-pointer"
-						>
-							<img
-								src={item.image}
-								alt={item.name}
-								className="w-21 h-21 rounded-full shadow-lg p-2"
-							/>
-							<div className="text-left">
-								<h3 className="text-lg font-semibold">{item.name}</h3>
-								<p className="text-gray-500 text-sm max-sm:block max-lg:hidden">
-									{item.description}
-								</p>
-							</div>
-						</div>
+						/>
 					))
 				) : (
 					<p className="text-center text-gray-500 col-span-full">

@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import transactions from '../../database/History.json';
+import { MyHistoryCard } from '../lit-wrapper';
 
 const HistoryCard = ({ searchQuery }) => {
 	const [selectedMonth, setSelectedMonth] = useState('');

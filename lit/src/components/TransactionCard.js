@@ -68,22 +68,32 @@ export class TransactionCard extends LitElement {
 		}
 
 		/* Responsive cho màn hình nhỏ */
-		/* @media (max-width: 768px) {
+		@media (max-width: 640px) {
 			.card {
-				width: 180px;
-				padding: 15px;
+				width: 130px;
+				height: 100px;
+				background-color: transparent !important; /* Bỏ background */
+				box-shadow: none; /* Có thể bỏ luôn bóng nếu muốn */
+				padding: 0;
 			}
 			.title {
-				font-size: 16px;
+				font-size: 15px;
 			}
 			.description {
-				font-size: 12px;
+				display: none;
 			}
 			.card button {
 				padding: 8px 15px;
 				font-size: 12px;
 			}
-		} */
+			.icon {
+				width: 70px;
+				height: 70px;
+			}
+			.icon-container {
+				padding: 0px;
+			}
+		}
 	`;
 
 	render() {

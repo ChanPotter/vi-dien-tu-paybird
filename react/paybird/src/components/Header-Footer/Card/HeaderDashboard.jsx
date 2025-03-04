@@ -21,8 +21,13 @@ const navigation = [
 		current: false,
 		status: true,
 	},
-	{ name: 'CÀI ĐẶT', href: '/Support', current: false, status: false },
-	{ name: 'THÔNG BÁO', href: '/Support', current: false, status: false },
+	{
+		name: 'CÀI ĐẶT',
+		href: '/Setting',
+		current: false,
+		status: false,
+	},
+	{ name: 'THÔNG BÁO', href: '/Notification', current: false, status: false },
 ];
 
 function classNames(...classes) {
@@ -146,19 +151,23 @@ const Header = ({ className }) => {
 										</div>
 									</div>
 								)}
-								<button
-									type="button"
-									className="relative rounded-full ml-3 bg-gray-100 p-1 text-gray-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden hidden sm:block"
-								>
-									<span className="absolute -inset-1.5" />
-									<span className="sr-only hidden sm:block">
-										View notifications
-									</span>
-									<Cog6ToothIcon
-										aria-hidden="true"
-										className="size-6 hidden sm:block"
-									/>
-								</button>
+								<Link to="/Setting">
+									<button
+										type="button"
+										className="relative rounded-full ml-3 bg-gray-100 p-1 text-gray-400 hover:text-white 
+               focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 
+               focus:outline-hidden hidden sm:block"
+									>
+										<span className="absolute -inset-1.5" />
+										<span className="sr-only hidden sm:block">
+											View notifications
+										</span>
+										<Cog6ToothIcon
+											aria-hidden="true"
+											className="size-6 hidden sm:block cursor-pointer"
+										/>
+									</button>
+								</Link>
 
 								{/* Profile dropdown */}
 								<Menu as="div" className="relative ml-3">

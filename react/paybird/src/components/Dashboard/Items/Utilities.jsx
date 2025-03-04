@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Utilities = () => {
 	return (
-		<div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 bg-white p-11">
+		<div className="mx-auto grid grid-cols-4 shadow-md  sm:grid-cols-2 lg:grid-cols-4 gap-4 bg-white p-4 sm:p-11">
 			<Link to="/Dashboard/Transfer">
 				<TranCard
 					title="Chuyển Tiền"
@@ -26,12 +26,14 @@ const Utilities = () => {
 				/>
 			</Link>
 
-			<TranCard
-				title="Rút / Nạp"
-				description="Giao dịch chuyển tiền một cách nhanh chóng an toàn"
-				bgColor="rgb(147, 112, 219)"
-				icon={pic3}
-			/>
+			<Link to="/Dashboard/Deposit">
+				<TranCard
+					title="Rút / Nạp"
+					description="Giao dịch chuyển tiền một cách nhanh chóng an toàn"
+					bgColor="rgb(147, 112, 219)"
+					icon={pic3}
+				/>
+			</Link>
 
 			<TranCard
 				title="Ưu Đãi"

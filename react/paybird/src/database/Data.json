@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Gói 1 - 3 ngày",
+		"cashback": "Hoàn tiền 10%",
+		"data": [
+			{
+				"size": "1,2GB",
+				"price": "12.000đ",
+				"duration": "1 ngày",
+				"cashback": "+1.200đ"
+			},
+			{
+				"size": "2GB",
+				"price": "20.000đ",
+				"duration": "1 ngày",
+				"cashback": "+2.000đ"
+			},
+			{
+				"size": "5GB",
+				"price": "50.000đ",
+				"duration": "1 ngày",
+				"cashback": "+5.000đ"
+			},
+			{
+				"size": "3GB",
+				"price": "30.000đ",
+				"duration": "3 ngày",
+				"cashback": "+3.000đ"
+			}
+		]
+	},
+	{
+		"title": "Gói 7 ngày",
+		"cashback": "Hoàn tiền 10%",
+		"data": [
+			{
+				"size": "50MB",
+				"price": "1.500đ",
+				"duration": "7 ngày",
+				"cashback": "+150đ"
+			},
+			{
+				"size": "100MB",
+				"price": "3.000đ",
+				"duration": "7 ngày",
+				"cashback": "+300đ"
+			},
+			{
+				"size": "200MB",
+				"price": "5.200đ",
+				"duration": "7 ngày",
+				"cashback": "+520đ"
+			},
+			{
+				"size": "500MB",
+				"price": "13.000đ",
+				"duration": "7 ngày",
+				"cashback": "+1.300đ"
+			}
+		]
+	},
+	{
+		"title": "Gói 15 ngày",
+		"cashback": "Hoàn tiền 10%",
+		"data": [
+			{
+				"size": "500MB",
+				"price": "10.000đ",
+				"duration": "15 ngày",
+				"cashback": "+1.000đ"
+			},
+			{
+				"size": "1GB",
+				"price": "16.000đ",
+				"duration": "15 ngày",
+				"cashback": "+1.600đ"
+			},
+			{
+				"size": "2GB",
+				"price": "32.000đ",
+				"duration": "15 ngày",
+				"cashback": "+3.200đ"
+			},
+			{
+				"size": "3GB",
+				"price": "50.000đ",
+				"duration": "15 ngày",
+				"cashback": "+5.000đ"
+			}
+		]
+	}
+]

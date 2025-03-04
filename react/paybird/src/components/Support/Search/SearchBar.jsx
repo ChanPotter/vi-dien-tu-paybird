@@ -1,5 +1,34 @@
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import faqData from '../../../database/Question.json';
+
 // eslint-disable-next-line react/prop-types
 export function SearchBar({ searchQuery, setSearchQuery, className }) {
+	const [suggestions, setSuggestions] = useState([]);
+	const navigate = useNavigate();
+
+	const handleInputChange = (e) => {
+		const value = e.target.value;
+		setSearchQuery(value);
+
+		if (value.length > 0) {
+			const filteredSuggestions = faqData
+				.filter((item) =>
+					item.question.toLowerCase().includes(value.toLowerCase())
+				)
+				.map((item) => ({ question: item.question, id: item.id })); // Giữ cả id và question
+			setSuggestions(filteredSuggestions.slice(0, 5));
+		} else {
+			setSuggestions([]);
+		}
+	};
+
+	const handleSuggestionClick = (suggestion) => {
+		setSearchQuery(suggestion.question);
+		setSuggestions([]);
+		navigate(`/Dashboard/Support/${suggestion.id}`); // Điều hướng với id
+	};
+
 	return (
 		<form
 			className={`w-full max-w-md ${className}`}
@@ -12,7 +41,6 @@ export function SearchBar({ searchQuery, setSearchQuery, className }) {
 				Search
 			</label>
 			<div className="relative">
-				{/* Icon search */}
 				<div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
 					<svg
 						className="w-4 h-4 text-gray-500"
@@ -31,25 +59,39 @@ export function SearchBar({ searchQuery, setSearchQuery, className }) {
 					</svg>
 				</div>
 
-				{/* Input search */}
 				<input
 					type="search"
 					id="default-search"
 					className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
 					placeholder="Search events..."
 					value={searchQuery}
-					onChange={(e) => setSearchQuery(e.target.value)}
+					onChange={handleInputChange}
 					required
 				/>
 
-				{/* Button search */}
 				<button
 					type="submit"
 					className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
 				>
 					Search
 				</button>
+
+				{suggestions.length > 0 && (
+					<ul className="absolute z-10 w-full bg-white border border-gray-300 rounded-lg mt-1 max-h-60 overflow-y-auto shadow-lg">
+						{suggestions.map((suggestion, index) => (
+							<li
+								key={index}
+								className="p-2 text-gray-900 hover:bg-blue-50 cursor-pointer"
+								onClick={() => handleSuggestionClick(suggestion)}
+							>
+								{suggestion.question} {/* Chỉ hiển thị question */}
+							</li>
+						))}
+					</ul>
+				)}
 			</div>
 		</form>
 	);
 }
+
+export default SearchBar;

@@ -4,6 +4,7 @@ import bank from '../../../../database/Bank.json';
 import MultipleBank from './MultipleBank';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import { MySelectBankCard } from '../../../lit-wrapper';
 
 const SelectBank = () => {
 	const navigate = useNavigate();
@@ -38,21 +39,11 @@ const SelectBank = () => {
 					</h2>
 					<div className="grid grid-cols-3 md:grid-cols-4 gap-4 p-4">
 						{bank.map((item) => (
-							<div
+							<MySelectBankCard
 								key={item.id}
-								onClick={() => handleClick(item.id)}
-								className="border border-gray-100 rounded-lg p-4 text-center shadow-md cursor-pointer hover:shadow-xl transition"
-							>
-								<img
-									src={item.image}
-									alt={item.name}
-									className="w-20 h-20 mx-auto mb-2 p-1"
-								/>
-								<h3 className="text-lg font-inder">{item.name}</h3>
-								<p className="text-gray-500 text-sm max-lg:hidden">
-									{item.description}
-								</p>
-							</div>
+								item={JSON.stringify(item)}
+								onClick={(e) => handleClick(item.id)}
+							/>
 						))}
 					</div>
 				</div>

@@ -1,24 +1,26 @@
 import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import setting from '../../assets/icon/setting.png';
 import copy from '../../assets/icon/copy.png';
 import account from '../../database/Received.json';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import domtoimage from 'dom-to-image';
+import { MySaveButton, MyCancelButton } from '../lit-wrapper';
 
 const AccountCard = () => {
 	const navigate = useNavigate();
 	// Lấy dữ liệu tài khoản đầu tiên từ JSON
 	const { QR, name, number } = account[0];
-	const divRef = useRef(null); // Tham chiếu đến phần tử cần chụp màn hình
 
+	// eslint-disable-next-line no-unused-vars
 	const [copied, setCopied] = useState(false);
 
 	const handleCopy = () => {
 		navigator.clipboard.writeText(number); //sao chép văn bản vào clipboard
 		setCopied(true);
 
-		// Thông báo "Đã sao chép" sẽ biến mất sau 2 giây
-		setTimeout(() => setCopied(false), 2000);
+		toast.success('Sao chép thành công', { autoClose: 2000 });
 	};
 
 	const handleSave = () => {
@@ -42,6 +44,7 @@ const AccountCard = () => {
 			id="my-element"
 			className="max-w-sm w-full p-7 bg-white shadow-xl rounded-2xl border-2 border-gray-100"
 		>
+			<ToastContainer position="top-right" />
 			<div className="mb-4 text-center">
 				<div className="flex justify-center">
 					<img src={QR} alt="QR" className="w-45 h-45" />
@@ -71,17 +74,9 @@ const AccountCard = () => {
 				</div>
 			</div>
 
-			<div className="mb-7 relative">
+			<div className="mb-6 relative">
 				<div className="shadow-lg border-2 border-gray-100 text-center p-2">
 					<div className="font-inder">Số tài khoản PayBird</div>
-
-					{/* Hiển thị thông báo khi sao chép thành công */}
-					{copied && (
-						<div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs py-2 px-2">
-							Đã sao chép!
-						</div>
-					)}
-
 					<div className="flex p-2 justify-center items-center gap-1">
 						<span>{number}</span>
 						<button onClick={handleCopy} className="focus:outline-none">
@@ -92,19 +87,8 @@ const AccountCard = () => {
 			</div>
 
 			<div className="space-y-3">
-				<button
-					className="w-full py-2 bg-blue-600 text-white rounded-2xl hover:bg-[#1A73E8] focus:outline-none"
-					onClick={handleSave}
-				>
-					Lưu
-				</button>
-
-				<button
-					className="w-full py-2 text-gray-700 shadow-xl rounded-2xl border-2 border-gray-100 hover:bg-gray-100 focus:outline-none"
-					onClick={() => navigate(-1)} // Quay lại trang trước đó
-				>
-					Hủy
-				</button>
+				<MySaveButton onClick={handleSave}>Lưu</MySaveButton>
+				<MyCancelButton onClick={() => navigate(-1)}>Hủy</MyCancelButton>
 			</div>
 		</div>
 	);

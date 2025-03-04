@@ -19,6 +19,7 @@
     "chroma-js": "^3.1.2",
     "dom-to-image": "^2.6.0",
     "dom-to-image-more": "^3.5.0",
+    "framer-motion": "^12.4.7",
     "html2canvas": "^1.4.1",
     "lit": "^3.2.1",
     "lucide-react": "^0.475.0",

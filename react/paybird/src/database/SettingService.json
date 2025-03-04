@@ -1,0 +1,54 @@
+[
+	{
+		"id": 1,
+		"name": "Thẻ PayBird",
+		"logo": "/src/assets/setting/credit-card.png",
+		"link": "/Dashboard/Receive"
+	},
+	{
+		"id": 2,
+		"name": "Quản lí tài khoản",
+		"logo": "/src/assets/setting/user.png",
+		"link": "/Setting/Profile"
+	},
+	{
+		"id": 3,
+		"name": "Lịch sử giao dịch",
+		"logo": "/src/assets/setting/history.png",
+		"link": "/History"
+	},
+	{
+		"id": 4,
+		"name": "Đăng kí cửa hàng",
+		"logo": "/src/assets/setting/store.png",
+		"link": "/Setting/Store"
+	},
+	{
+		"id": 5,
+		"name": "Gói VIP",
+		"logo": "/src/assets/setting/diamond.png"
+	},
+	{
+		"id": 6,
+		"name": "Ưu đãi khác",
+		"logo": "/src/assets/setting/coupon.png"
+	},
+	{
+		"id": 7,
+		"name": "Trung tâm trợ giúp",
+		"logo": "/src/assets/setting/costumer-service.png",
+		"link": "/Dashboard/Support"
+	},
+	{
+		"id": 8,
+		"name": "Đổi mật khẩu",
+		"logo": "/src/assets/setting/padlock.png",
+		"link": "/Setting/ChangePassword"
+	},
+	{
+		"id": 9,
+		"name": "Mã giới thiệu",
+		"logo": "/src/assets/setting/barcode.png",
+		"link": "/Setting/Referral"
+	}
+]

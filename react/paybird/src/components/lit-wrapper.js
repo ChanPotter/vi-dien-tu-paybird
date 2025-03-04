@@ -4,6 +4,25 @@ import {
 	MyButton,
 	ServiceCard,
 	TransactionCard,
+	SettingCard,
+	SaveButton,
+	CancelButton,
+	ConfirmButton,
+	UtilitiesCard,
+	AllBankCard,
+	SelectBankCard,
+	HistoryCard,
+	Dropdown,
+	DetailCard,
+	AccountInfo,
+	Referral,
+	Input,
+	InputField,
+	AmountButton,
+	Loading,
+	Return,
+	Check,
+	PackageCard,
 } from '../../../../lit/src/index'; // 🛠 Sửa đường dẫn
 
 export const Button = createComponent({
@@ -20,4 +39,99 @@ export const MyServiceCard = createComponent({
 	react: React,
 	tagName: 'service-card',
 	elementClass: ServiceCard,
+});
+export const MySettingCard = createComponent({
+	react: React,
+	tagName: 'setting-card',
+	elementClass: SettingCard,
+});
+export const MySaveButton = createComponent({
+	react: React,
+	tagName: 'save-button',
+	elementClass: SaveButton,
+});
+export const MyCancelButton = createComponent({
+	react: React,
+	tagName: 'cancel-button',
+	elementClass: CancelButton,
+});
+export const MyConfirmButton = createComponent({
+	react: React,
+	tagName: 'confirm-button',
+	elementClass: ConfirmButton,
+});
+export const MyUtilitiesCard = createComponent({
+	react: React,
+	tagName: 'utilities-card',
+	elementClass: UtilitiesCard,
+});
+export const MyAllBankCard = createComponent({
+	react: React,
+	tagName: 'allbank-card',
+	elementClass: AllBankCard,
+});
+export const MySelectBankCard = createComponent({
+	react: React,
+	tagName: 'selectbank-card',
+	elementClass: SelectBankCard,
+});
+export const MyHistoryCard = createComponent({
+	react: React,
+	tagName: 'history-card',
+	elementClass: HistoryCard,
+});
+export const MyDropdown = createComponent({
+	react: React,
+	tagName: 'drop-down',
+	elementClass: Dropdown,
+});
+export const MyDetailCard = createComponent({
+	react: React,
+	tagName: 'detail-card',
+	elementClass: DetailCard,
+});
+export const MyAccountInfo = createComponent({
+	react: React,
+	tagName: 'account-info',
+	elementClass: AccountInfo,
+});
+export const MyReferral = createComponent({
+	react: React,
+	tagName: 'referral-card',
+	elementClass: Referral,
+});
+export const MyInput = createComponent({
+	react: React,
+	tagName: 'my-input',
+	elementClass: Input,
+});
+export const MyInputField = createComponent({
+	react: React,
+	tagName: 'input-field',
+	elementClass: InputField,
+});
+export const MyAmountButton = createComponent({
+	react: React,
+	tagName: 'amount-button',
+	elementClass: AmountButton,
+});
+export const MyLoading = createComponent({
+	react: React,
+	tagName: 'my-loading',
+	elementClass: Loading,
+});
+export const MyReturn = createComponent({
+	react: React,
+	tagName: 'my-return',
+	elementClass: Return,
+});
+export const MyCheck = createComponent({
+	react: React,
+	tagName: 'my-check',
+	elementClass: Check,
+});
+export const MyPackageCard = createComponent({
+	react: React,
+	tagName: 'package-card',
+	elementClass: PackageCard,
 });
