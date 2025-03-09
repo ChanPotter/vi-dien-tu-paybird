@@ -22,3 +22,6 @@ export * from './components/Icon/Loading';
 export * from './components/Icon/Return';
 export * from './components/Icon/Check';
 export * from './components/PackageCard';
+export * from './components/Bill/BillCard';
+export * from './components/Bill/PaymentPromo';
+export * from './components/Bill/CustomerCodeInput';

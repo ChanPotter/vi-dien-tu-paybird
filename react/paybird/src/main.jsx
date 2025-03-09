@@ -24,9 +24,14 @@ import Referral from './components/Referral/Referral';
 import ChangePassword from './components/ChangePassword/ChangePassword';
 import Notification from './components/Notification/Notification';
 import Store from './components/Store/Store';
-import Recharge from './components/PhoneRecharge/Recharge';
+import { Recharge, ConfirmModal } from './components/PhoneRecharge/index';
 import DepositAndWithdraw from './components/DepositAndWithdraw/DepositAndWithdraw';
 import Internet from './components/Internet/Internet';
+import ComfirmTransaction from './components/Internet/ComfirmTransaction/ComfirmTransaction';
+import TicketMovie from './components/TicketMovie/TicketMovie';
+import BookTour from './components/BookTour/Home';
+import Bill from './components/Bill/Bill';
+import FindBill from './components/Bill/FindBill/FindBill';
 
 createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
@@ -58,7 +63,13 @@ createRoot(document.getElementById('root')).render(
 				<Route path="/Setting/ChangePassword" element={<ChangePassword />} />
 				<Route path="/Setting/Store" element={<Store />} />
 				<Route path="/Dashboard/1" element={<Recharge />} />
+				<Route path="/Dashboard/1/Confirm" element={<ConfirmModal />} />
 				<Route path="/Dashboard/7" element={<Internet />} />
+				<Route path="/Dashboard/7/:id" element={<ComfirmTransaction />} />
+				<Route path="/Dashboard/3" element={<TicketMovie />} />
+				<Route path="/Dashboard/6" element={<BookTour />} />
+				<Route path="/Dashboard/2" element={<Bill />} />
+				<Route path="/Dashboard/2/:id" element={<FindBill />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

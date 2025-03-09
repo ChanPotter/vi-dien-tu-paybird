@@ -4,3 +4,11 @@
 .font-inder {
 	font-family: 'Inder', sans-serif;
 }
+/* Ẩn thanh cuộn nhưng vẫn cuộn được */
+.scrollbar-hide::-webkit-scrollbar {
+	display: none;
+}
+
+.scrollbar-hide {
+	scrollbar-width: none; /* Ẩn trên Firefox */
+}

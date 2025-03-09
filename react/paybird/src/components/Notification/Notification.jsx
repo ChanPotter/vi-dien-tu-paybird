@@ -27,7 +27,7 @@ const Notification = () => {
 						{Data.map(({ id, title, content }) => (
 							<div
 								key={id}
-								className="bg-white p-4 rounded-2xl max-w-sm w-full"
+								className="bg-white p-4 rounded-2xl max-w-md w-full"
 							>
 								<p className="font-bold text-base">{title}</p>
 								<p className="text-gray-700 text-sm">{content}</p>

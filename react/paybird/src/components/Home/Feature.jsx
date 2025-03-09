@@ -19,7 +19,7 @@ export function Feature() {
 						className={`flex-1 p-6 text-white text-center bg-blue-500 rounded-xl md:text-left py-1 sm:py-3 md:py-6`}
 					>
 						<h3 className="text-2xl font-bold md:text-3xl text-right max-[425px]:text-[12px] max-[495px]:text-sm max-[640px]:text-lg">
-							Nhanh Chóng
+							Tiện Lợi
 						</h3>
 					</div>
 				</div>
@@ -54,7 +54,7 @@ export function Feature() {
 						className={`flex-1 p-6 text-white text-center bg-green-500 rounded-xl md:text-left py-1 sm:py-3 md:py-6`}
 					>
 						<h3 className="text-2xl font-bold md:text-3xl max-[425px]:text-[12px] max-[495px]:text-sm max-[640px]:text-lg">
-							Nhanh Chóng
+							An toàn
 						</h3>
 					</div>
 				</div>

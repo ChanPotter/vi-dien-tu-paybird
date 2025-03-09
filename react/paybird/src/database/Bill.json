@@ -1,0 +1,51 @@
+[
+	{
+		"id": 1,
+		"name": "Tiền điện",
+		"description": "Ngân hàng TMCP Quân Đội",
+		"image": "/src/assets/bill/bulb.png",
+		"bill": "/src/assets/bill/bill.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Tiền nước",
+		"description": "Ngân hàng TMCP Quân Đội",
+		"image": "/src/assets/bill/water.png",
+		"bill": "/src/assets/bill/billwater.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Internet",
+		"description": "Ngân hàng TMCP Đầu Tư và Phát Triển Việt Nam",
+		"image": "/src/assets/bill/wifi.png",
+		"bill": "/src/assets/bill/bill.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Truyền hình",
+		"description": "Ngân hàng TMCP Á Châu",
+		"image": "/src/assets/bill/tv.png",
+		"bill": "/src/assets/bill/bill.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Phí chung cư",
+		"description": "Ngân hàng TMCP Tiên Phong",
+		"image": "/src/assets/bill/apartment.png",
+		"bill": "/src/assets/bill/bill.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Phí điện thoại",
+		"description": "Ngân hàng TMCP Ngoại thương Việt Nam",
+		"image": "/src/assets/bill/4g.png",
+		"bill": "/src/assets/bill/bill.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Phí môi trường",
+		"description": "Ngân hàng TMCP Việt Nam Thịnh Vượng",
+		"image": "/src/assets/bill/earth.png",
+		"bill": "/src/assets/bill/bill.jpg"
+	}
+]

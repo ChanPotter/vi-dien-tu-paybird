@@ -32,6 +32,7 @@ export class InputField extends LitElement {
 	// Xử lý sự kiện thay đổi giá trị input
 	handleInputChange(event) {
 		const value = event.target.value;
+		this.value = value; // Cập nhật giá trị nội bộ
 		this.dispatchEvent(
 			new CustomEvent('input-change', {
 				detail: { value },

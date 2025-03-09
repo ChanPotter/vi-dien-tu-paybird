@@ -3,13 +3,13 @@ import { HeaderDashboard, Footer } from '../Header-Footer/index';
 import { MyConfirmButton, MyAmountButton } from '../lit-wrapper';
 import { useNavigate } from 'react-router-dom';
 import Confirm from '../LitItem/Confirm';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Recharge = () => {
 	const navigate = useNavigate();
 	const [phoneNumber, setPhoneNumber] = useState('');
 	const [selectedAmount, setSelectedAmount] = useState(null);
-	const [isModalOpen, setIsModalOpen] = useState(false);
-	const [isModalOpen2, setIsModalOpen2] = useState(false);
 	const [isLoading, setIsLoading] = useState(false);
 
 	const amounts = [
@@ -23,14 +23,18 @@ const Recharge = () => {
 		'500.000',
 	];
 	const handleContinue = () => {
+		if (!phoneNumber || !selectedAmount) {
+			toast.error('Vui lòng nhập số điện thoại và số tiền!');
+			return;
+		}
+
 		setIsLoading(true);
 		setTimeout(() => {
 			setIsLoading(false);
-			setIsModalOpen(true);
+			navigate('/Dashboard/1/Confirm', {
+				state: { phoneNumber, selectedAmount }, // Truyền state
+			});
 		}, 2000);
-	};
-	const handleCloseModal = () => {
-		setIsModalOpen(false);
 	};
 
 	useEffect(() => {
@@ -100,52 +104,6 @@ const Recharge = () => {
 						</MyConfirmButton>
 						<MyConfirmButton onClick={() => navigate(-1)}>Hủy</MyConfirmButton>
 					</div>
-					{/* Modal */}
-					{isModalOpen && (
-						<div className="fixed inset-0 flex items-center justify-center backdrop-blur-md">
-							<div className="max-w-sm w-full p-7 bg-white shadow-xl rounded-2xl border-2 border-gray-100">
-								<p className="text-2xl font-semibold mb-6 text-center">
-									Xác nhận giao dịch của bạn
-								</p>
-								{/* Hiển thị số điện thoại */}
-								<div className="mb-4 p-3 bg-gray-100 rounded-lg shadow-md text-center">
-									<p className="text-gray-500 text-sm">Số điện thoại</p>
-									<p className="text-lg font-medium">
-										{phoneNumber || 'Chưa nhập'}
-									</p>
-								</div>
-
-								{/* Hiển thị số tiền đã chọn */}
-								<div className="mb-4 p-4 bg-blue-100 rounded-lg shadow-md text-center">
-									<p className="text-gray-500 text-sm">Số tiền</p>
-									<p className="text-2xl font-bold text-blue-600">
-										{selectedAmount || 'Chưa chọn số tiền'}
-									</p>
-								</div>
-
-								<div className="space-y-3">
-									<button
-										onClick={() => setIsModalOpen2(true)}
-										className="w-full py-2 bg-blue-600 text-white rounded-2xl hover:bg-[#1A73E8]"
-									>
-										Tiếp tục
-									</button>
-
-									<button
-										className="w-full py-2 text-gray-700 shadow-xl rounded-2xl border-2 border-gray-100 hover:bg-gray-100 mt-2"
-										onClick={handleCloseModal} // Quay lại trang trước đó
-									>
-										Hủy
-									</button>
-								</div>
-								{isModalOpen2 && (
-									<div className="fixed inset-0 flex items-center justify-center backdrop-blur-md">
-										<Confirm />
-									</div>
-								)}
-							</div>
-						</div>
-					)}
 				</div>
 			</div>
 			<Footer />

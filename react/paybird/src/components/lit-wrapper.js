@@ -23,6 +23,9 @@ import {
 	Return,
 	Check,
 	PackageCard,
+	BillCard,
+	PaymentPromo,
+	CustomerCodeInput,
 } from '../../../../lit/src/index'; // 🛠 Sửa đường dẫn
 
 export const Button = createComponent({
@@ -134,4 +137,19 @@ export const MyPackageCard = createComponent({
 	react: React,
 	tagName: 'package-card',
 	elementClass: PackageCard,
+});
+export const MyBillCard = createComponent({
+	react: React,
+	tagName: 'bill-card',
+	elementClass: BillCard,
+});
+export const MyPaymentPromo = createComponent({
+	react: React,
+	tagName: 'payment-promo',
+	elementClass: PaymentPromo,
+});
+export const MyCustomerCodeInput = createComponent({
+	react: React,
+	tagName: 'customer-code-input',
+	elementClass: CustomerCodeInput,
 });
