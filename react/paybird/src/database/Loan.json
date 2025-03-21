@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Home Credit",
+		"description": "",
+		"image": "/src/assets/loan/homeCredit.png",
+		"bill": "/src/assets/loan/homeCredit.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Shinhan Finance",
+		"description": "",
+		"image": "/src/assets/loan/shinhan.png",
+		"bill": "/src/assets/loan/homeCredit.jpg"
+	},
+	{
+		"id": 3,
+		"name": "MCredit",
+		"description": "",
+		"image": "/src/assets/loan/mCredit.webp",
+		"bill": "/src/assets/loan/homeCredit.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Fe Credit",
+		"description": "",
+		"image": "/src/assets/loan/FECredit.png",
+		"bill": "/src/assets/loan/homeCredit.jpg"
+	}
+]

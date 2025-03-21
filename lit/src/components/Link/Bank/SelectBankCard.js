@@ -2,12 +2,12 @@ import { LitElement, html, css } from 'lit';
 
 export class SelectBankCard extends LitElement {
 	static properties = {
-		item: { type: String }, // Nhận chuỗi JSON từ JSX
+		item: { type: String },
 	};
 
 	static styles = css`
 		.border {
-			border: 1px solid #f3f4f6; /* border-gray-100 */
+			border: 1px solid #f3f4f6;
 		}
 		.rounded-lg {
 			border-radius: 0.5rem;
@@ -30,7 +30,7 @@ export class SelectBankCard extends LitElement {
 		}
 		.hover-shadow-xl:hover {
 			box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-				0 10px 10px -5px rgba(0, 0, 0, 0.04); /* hover:shadow-xl */
+				0 10px 10px -5px rgba(0, 0, 0, 0.04);
 		}
 		.w-20 {
 			width: 5rem;
@@ -52,7 +52,7 @@ export class SelectBankCard extends LitElement {
 			font-size: 1.125rem;
 		}
 		.font-inder {
-			font-family: 'Inder', sans-serif; /* Giả định font Inder đã được load */
+			font-family: 'Inder', sans-serif;
 		}
 		.text-gray-500 {
 			color: #6b7280;
@@ -61,12 +61,15 @@ export class SelectBankCard extends LitElement {
 			font-size: 0.875rem;
 		}
 		.description {
-			display: block; /* Mặc định hiển thị */
+			display: block;
+		}
+		.image-border {
+			border: 2px solid #007bff; /* Custom blue border */
+			border-radius: 8px;
 		}
 		@media (max-width: 1023.99px) {
-			/* Dưới lg (1024px) */
 			.description {
-				display: none; /* max-lg:hidden */
+				display: none;
 			}
 		}
 	`;
@@ -90,13 +93,13 @@ export class SelectBankCard extends LitElement {
 		const item = this.parsedItem;
 		return html`
 			<div
-				class="border border-gray-100 rounded-lg p-4 text-center shadow-md cursor-pointer hover-shadow-xl"
+				class="border rounded-lg p-4 text-center shadow-md cursor-pointer hover-shadow-xl"
 				@click=${this.handleClick}
 			>
 				<img
 					src=${item.image}
 					alt=${item.name}
-					class="w-20 h-20 mx-auto mb-2 p-1"
+					class="w-20 h-20 mx-auto mb-2 p-1 image-border"
 				/>
 				<h3 class="text-lg font-inder">${item.name}</h3>
 				<p class="text-gray-500 text-sm description">${item.description}</p>

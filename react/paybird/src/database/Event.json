@@ -1,0 +1,58 @@
+[
+	{
+		"id": 1,
+		"name": "Zalopay hợp tác cùng BlueMedia và Waffo triển khai giải pháp thanh toán và quảng cáo tại thị trường Đông Nam Á",
+		"description": "Hợp tác này hướng đến việc phát triển các giải pháp quảng cáo và tiếp thị tích hợp, giúp doanh nghiệp tối ưu hóa hoạt động marketing, mở rộng thị trường và nâng cao hiệu quả kinh doanh.Là nền tảng thanh toán trực tuyến hàng đầu tại Việt Nam, Zalopay không ngừng nâng cấp hệ sinh thái dịch vụ để đáp ứng nhu cầu thanh toán của người dùng và doanh nghiệp. Sau hơn 6 năm phát triển, Zalopay hiện đang phục vụ 16 triệu người dùng, là đối tác của hơn 52.000 doanh nghiệp trong và ngoài nước.\nBên cạnh các dịch vụ thanh toán, tiện ích và các sản phẩm tài chính, Zalopay còn cung cấp bộ giải pháp marketing toàn diện, hỗ trợ đối tác gia tăng nhận diện thương hiệu, tiếp cận khách hàng mục tiêu và tối ưu hóa giá trị giao dịch cũng như tỷ lệ khách hàng trung thành. Không chỉ dừng lại ở các công cụ thanh toán, Zalopay còn giúp đối tác doanh nghiệp xây dựng các chương trình ưu đãi chuyên biệt, thúc đẩy chiến lược loyalty marketing, gia tăng gắn kết dài lâu với khách hàng.",
+		"date": "2021-01-01",
+		"image": "/src/assets/events/1.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Zalopay công bố hợp tác chiến lược cùng MBBank, mở rộng hệ sinh thái số",
+		"description": "Chiều nay 21/02, Ngân hàng TMCP Quân Đội (MB) và Công ty Cổ phần ZION (đơn vị chủ quản ứng dụng thanh toán Zalopay) chính thức ký kết thỏa thuận hợp tác chiến lược. Sự kiện đánh dấu bước tiến quan trọng của cả hai trong hành trình chuyển đổi số, hướng tới việc phát triển các sản phẩm, dịch vụ đột phá, nâng tầm trải nghiệm người dùng và khẳng định vị thế trên thị trường tài chính số tại Việt Nam. Thông qua hợp tác này, MB và Zalopay hướng đến mục tiêu xây dựng một hệ sinh thái tài chính số hiện đại, giúp khách hàng tiếp cận các dịch vụ ngân hàng nhanh chóng, an toàn và hiệu quả. Người dùng sẽ được trải nghiệm các sản phẩm tài chính đa dạng của MB ngay trên nền tảng ứng dụng Zalopay, bao gồm sinh lời tự động, tiền gửi số, chứng chỉ tiền gửi và các sản phẩm tài chính khác. Đồng thời, khi khách hàng sử dụng Zalopay sẽ nhận được những ưu đãi hấp dẫn, cùng với khả năng tích hợp mở tài khoản MB trực tiếp ngay trên ứng dụng, gia tăng tiện ích và tối ưu hóa trải nghiệm số.",
+		"date": "2021-02-02",
+		"image": "/src/assets/events/1.png"
+	},
+	{
+		"id": 3,
+		"name": "Đã có thể dùng ứng dụng Zalopay thể quét thanh toán VNPAY-QR",
+		"description": "Ngay trước thềm Tết Ất Tỵ, Zalopay đã thành công ra mắt tính năng quét VNPAY-QR bằng ứng dụng Zalopay. Với sự hợp tác chiến lược này, khách hàng của Zalopay x VNPAY-QR không còn chỉ đơn thuần quét QR thanh toán, mà đã có thể tích lũy xu với mọi giao dịch và quy đổi xu thành đa dạng các loại voucher/ quà tặng tùy chọn theo sở thích!",
+		"date": "2021-03-03",
+		"image": "/src/assets/events/3.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Khách hàng đầu tiên trúng 1 chỉ vàng 9999 từ chương trình thanh toán học phí trên Zalopay",
+		"description": "Xin chúc mừng chị Nguyễn Thị Hương, phụ huynh học sinh trường tiểu học Linh Đàm (Hà Nội), đã trở thành khách hàng đầu tiên nhận được giải thưởng 1 chỉ vàng từ chương trình “Thanh toán học phí - Trúng vàng về tay” từ Zalopay. Chị Hương đã may mắn trúng giải sau khi thực hiện thanh toán học phí cho con qua tính năng chuyển khoản bằng QR Đa năng của Zalopay trên ứng dụng eNetViet. Đây là một trong những hình thức thanh toán thông minh, tiện lợi và an toàn mà Zalopay mang đến cho người dùng, giúp việc chi trả học phí trở nên đơn giản và nhanh chóng hơn bao giờ hết.",
+		"date": "2021-04-04",
+		"image": "/src/assets/events/4.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Khách hàng đầu tiên trúng 1 chỉ vàng 9999 từ chương trình thanh toán học phí trên Zalopay",
+		"description": "Xin chúc mừng chị Nguyễn Thị Hương, phụ huynh học sinh trường tiểu học Linh Đàm (Hà Nội), đã trở thành khách hàng đầu tiên nhận được giải thưởng 1 chỉ vàng từ chương trình “Thanh toán học phí - Trúng vàng về tay” từ Zalopay. Chị Hương đã may mắn trúng giải sau khi thực hiện thanh toán học phí cho con qua tính năng chuyển khoản bằng QR Đa năng của Zalopay trên ứng dụng eNetViet. Đây là một trong những hình thức thanh toán thông minh, tiện lợi và an toàn mà Zalopay mang đến cho người dùng, giúp việc chi trả học phí trở nên đơn giản và nhanh chóng hơn bao giờ hết.",
+		"date": "2021-04-04",
+		"image": "/src/assets/events/jackbox.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Khách hàng đầu tiên trúng 1 chỉ vàng 9999 từ chương trình thanh toán học phí trên Zalopay",
+		"description": "Xin chúc mừng chị Nguyễn Thị Hương, phụ huynh học sinh trường tiểu học Linh Đàm (Hà Nội), đã trở thành khách hàng đầu tiên nhận được giải thưởng 1 chỉ vàng từ chương trình “Thanh toán học phí - Trúng vàng về tay” từ Zalopay. Chị Hương đã may mắn trúng giải sau khi thực hiện thanh toán học phí cho con qua tính năng chuyển khoản bằng QR Đa năng của Zalopay trên ứng dụng eNetViet. Đây là một trong những hình thức thanh toán thông minh, tiện lợi và an toàn mà Zalopay mang đến cho người dùng, giúp việc chi trả học phí trở nên đơn giản và nhanh chóng hơn bao giờ hết.",
+		"date": "2021-04-04",
+		"image": "/src/assets/events/jackbox.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Khách hàng đầu tiên trúng 1 chỉ vàng 9999 từ chương trình thanh toán học phí trên Zalopay",
+		"description": "Xin chúc mừng chị Nguyễn Thị Hương, phụ huynh học sinh trường tiểu học Linh Đàm (Hà Nội), đã trở thành khách hàng đầu tiên nhận được giải thưởng 1 chỉ vàng từ chương trình “Thanh toán học phí - Trúng vàng về tay” từ Zalopay. Chị Hương đã may mắn trúng giải sau khi thực hiện thanh toán học phí cho con qua tính năng chuyển khoản bằng QR Đa năng của Zalopay trên ứng dụng eNetViet. Đây là một trong những hình thức thanh toán thông minh, tiện lợi và an toàn mà Zalopay mang đến cho người dùng, giúp việc chi trả học phí trở nên đơn giản và nhanh chóng hơn bao giờ hết.",
+		"date": "2021-04-04",
+		"image": "/src/assets/events/jackbox.jpg"
+	},
+	{
+		"id": 8,
+		"name": "Khách hàng đầu tiên trúng 1 chỉ vàng 9999 từ chương trình thanh toán học phí trên Zalopay",
+		"description": "Xin chúc mừng chị Nguyễn Thị Hương, phụ huynh học sinh trường tiểu học Linh Đàm (Hà Nội), đã trở thành khách hàng đầu tiên nhận được giải thưởng 1 chỉ vàng từ chương trình “Thanh toán học phí - Trúng vàng về tay” từ Zalopay. Chị Hương đã may mắn trúng giải sau khi thực hiện thanh toán học phí cho con qua tính năng chuyển khoản bằng QR Đa năng của Zalopay trên ứng dụng eNetViet. Đây là một trong những hình thức thanh toán thông minh, tiện lợi và an toàn mà Zalopay mang đến cho người dùng, giúp việc chi trả học phí trở nên đơn giản và nhanh chóng hơn bao giờ hết.",
+		"date": "2021-04-04",
+		"image": "/src/assets/events/jackbox.jpg"
+	}
+]

@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"name": "Voucher 1",
+		"description": "Voucher 1 description",
+		"image": "/src/assets/images/voucher.jpg",
+		"date": "2021-09-01"
+	},
+	{
+		"id": 2,
+		"name": "Voucher 1",
+		"description": "Voucher 1 description",
+		"image": "/src/assets/images/voucher.jpg",
+		"date": "2021-09-01"
+	},
+	{
+		"id": 3,
+		"name": "Voucher 1",
+		"description": "Voucher 1 description",
+		"image": "/src/assets/images/voucher.jpg",
+		"date": "2021-09-01"
+	},
+	{
+		"id": 4,
+		"name": "Voucher 1",
+		"description": "Voucher 1 description",
+		"image": "/src/assets/images/voucher.jpg",
+		"date": "2021-09-01"
+	},
+	{
+		"id": 5,
+		"name": "Voucher 1",
+		"description": "Voucher 1 description",
+		"image": "/src/assets/images/voucher.jpg",
+		"date": "2021-09-01"
+	},
+	{
+		"id": 6,
+		"name": "Voucher 1",
+		"description": "Voucher 1 description",
+		"image": "/src/assets/images/voucher.jpg",
+		"date": "2021-09-01"
+	}
+]

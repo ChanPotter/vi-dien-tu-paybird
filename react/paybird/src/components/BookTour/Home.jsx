@@ -1,5 +1,6 @@
 import { HeaderDashboard, Footer } from '../Header-Footer/index';
 import { useEffect } from 'react';
+import packages from '../../database/Tour.json';
 export default function Home() {
 	useEffect(() => {
 		// Tạo thẻ link để load Bootstrap từ public
@@ -41,57 +42,57 @@ export default function Home() {
 								About Us
 							</h6>
 							<h1 className="mb-4">
-								Welcome to <span className="text-primary">Tourist</span>
+								Paybird và <span className="text-primary">Du lịch</span>
 							</h1>
 							<p className="mb-4">
-								Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-								Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.
+								Khám phá những vùng đất mới, tận hưởng những trải nghiệm khó
+								quên. Paybird đồng hành cùng bạn trên mọi hành trình.
 							</p>
 							<p className="mb-4">
-								Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-								Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-								sed stet lorem sit clita duo justo magna dolore erat amet
+								Dù bạn đang mơ về một kỳ nghỉ thư giãn trên bãi biển hay một
+								chuyến phiêu lưu khám phá núi rừng, Paybird luôn sẵn sàng giúp
+								bạn biến ước mơ thành hiện thực.
 							</p>
 							<div className="row gy-2 gx-4 mb-4">
 								<div className="col-sm-6">
 									<p className="mb-0">
 										<i className="fa fa-arrow-right text-primary me-2" />
-										First Class Flights
+										Chuyến bay hạng nhất
 									</p>
 								</div>
 								<div className="col-sm-6">
 									<p className="mb-0">
 										<i className="fa fa-arrow-right text-primary me-2" />
-										Handpicked Hotels
-									</p>
-								</div>
-								<div className="col-sm-6">
-									<p className="mb-0">
-										<i className="fa fa-arrow-right text-primary me-2" />5 Star
-										Accommodations
+										Khách sạn được tuyển chọn kỹ lưỡng
 									</p>
 								</div>
 								<div className="col-sm-6">
 									<p className="mb-0">
 										<i className="fa fa-arrow-right text-primary me-2" />
-										Latest Model Vehicles
+										Chỗ ở 5 sao
 									</p>
 								</div>
 								<div className="col-sm-6">
 									<p className="mb-0">
 										<i className="fa fa-arrow-right text-primary me-2" />
-										150 Premium City Tours
+										Phương tiện đời mới nhất
 									</p>
 								</div>
 								<div className="col-sm-6">
 									<p className="mb-0">
 										<i className="fa fa-arrow-right text-primary me-2" />
-										24/7 Service
+										150 tour du lịch thành phố cao cấp
+									</p>
+								</div>
+								<div className="col-sm-6">
+									<p className="mb-0">
+										<i className="fa fa-arrow-right text-primary me-2" />
+										Dịch vụ 24/7
 									</p>
 								</div>
 							</div>
 							<a className="btn btn-primary py-3 px-5 mt-2" href="">
-								Read More
+								Xem thêm
 							</a>
 						</div>
 					</div>
@@ -103,9 +104,9 @@ export default function Home() {
 				<div className="container">
 					<div className="text-center wow fadeInUp" data-wow-delay="0.1s">
 						<h6 className="section-title bg-white text-center text-primary px-3">
-							Services
+							Dịch vụ
 						</h6>
-						<h1 className="mb-5">Our Services</h1>
+						<h1 className="mb-5">Dịch vụ của chúng tôi</h1>
 					</div>
 					<div className="row g-4">
 						<div
@@ -115,10 +116,10 @@ export default function Home() {
 							<div className="service-item rounded pt-3">
 								<div className="p-4">
 									<i className="fa fa-3x fa-globe text-primary mb-4" />
-									<h5>WorldWide Tours</h5>
+									<h5>Tour du lịch toàn cầu</h5>
 									<p>
-										Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-										amet diam
+										Khám phá thế giới với những tour du lịch được thiết kế
+										riêng, mang đến trải nghiệm khó quên.
 									</p>
 								</div>
 							</div>
@@ -130,10 +131,10 @@ export default function Home() {
 							<div className="service-item rounded pt-3">
 								<div className="p-4">
 									<i className="fa fa-3x fa-hotel text-primary mb-4" />
-									<h5>Hotel Reservation</h5>
+									<h5>Đặt phòng khách sạn</h5>
 									<p>
-										Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-										amet diam
+										Dễ dàng đặt phòng khách sạn trên toàn thế giới, với nhiều
+										lựa chọn phù hợp với nhu cầu của bạn.
 									</p>
 								</div>
 							</div>
@@ -145,10 +146,10 @@ export default function Home() {
 							<div className="service-item rounded pt-3">
 								<div className="p-4">
 									<i className="fa fa-3x fa-user text-primary mb-4" />
-									<h5>Travel Guides</h5>
+									<h5>Hướng dẫn viên du lịch</h5>
 									<p>
-										Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-										amet diam
+										Đội ngũ hướng dẫn, giàu kinh nghiệm, sẵn sàng đồng hành cùng
+										bạn trên mọi hành trình.
 									</p>
 								</div>
 							</div>
@@ -160,10 +161,10 @@ export default function Home() {
 							<div className="service-item rounded pt-3">
 								<div className="p-4">
 									<i className="fa fa-3x fa-cog text-primary mb-4" />
-									<h5>Event Management</h5>
+									<h5>Tổ chức sự kiện</h5>
 									<p>
-										Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-										amet diam
+										Tổ chức các sự kiện du lịch chuyên nghiệp, từ hội nghị, hội
+										thảo đến các chuyến đi team building.
 									</p>
 								</div>
 							</div>
@@ -177,9 +178,9 @@ export default function Home() {
 				<div className="container">
 					<div className="text-center wow fadeInUp" data-wow-delay="0.1s">
 						<h6 className="section-title bg-white text-center text-primary px-3">
-							Destination
+							Điểm đến
 						</h6>
-						<h1 className="mb-5">Popular Destination</h1>
+						<h1 className="mb-5">Điểm đến phổ biến</h1>
 					</div>
 					<div className="row g-3">
 						<div className="col-lg-7 col-md-6">
@@ -281,179 +282,67 @@ export default function Home() {
 				<div className="container">
 					<div className="text-center wow fadeInUp" data-wow-delay="0.1s">
 						<h6 className="section-title bg-white text-center text-primary px-3">
-							Packages
+							Gói dịch vụ
 						</h6>
-						<h1 className="mb-5">Awesome Packages</h1>
+						<h1 className="mb-5">Các gói dịch vụ tuyệt vời</h1>
 					</div>
 					<div className="row g-4 justify-content-center">
-						<div
-							className="col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay="0.1s"
-						>
-							<div className="package-item">
-								<div className="overflow-hidden">
-									<img
-										className="img-fluid"
-										src="/public/assets/img/package-1.jpg"
-										alt=""
-									/>
-								</div>
-								<div className="d-flex border-bottom">
-									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-map-marker-alt text-primary me-2" />
-										Thailand
-									</small>
-									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-calendar-alt text-primary me-2" />3 days
-									</small>
-									<small className="flex-fill text-center py-2">
-										<i className="fa fa-user text-primary me-2" />2 Person
-									</small>
-								</div>
-								<div className="text-center p-4">
-									<h3 className="mb-0">$149.00</h3>
-									<div className="mb-3">
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
+						{packages.map((pkg, index) => (
+							<div
+								className="col-lg-4 col-md-6 wow fadeInUp"
+								data-wow-delay={`${0.1 * index}s`}
+								key={pkg.id}
+							>
+								<div className="package-item">
+									<div className="overflow-hidden">
+										<img
+											className="img-fluid"
+											src={pkg.image}
+											alt={pkg.country}
+										/>
 									</div>
-									<p>
-										Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
-										diam amet diam eos
-									</p>
-									<div className="d-flex justify-content-center mb-2">
-										<a
-											href="#"
-											className="btn btn-sm btn-primary px-3 border-end"
-											style={{ borderRadius: '30px 0 0 30px' }}
-										>
-											Read More
-										</a>
-										<a
-											href="#"
-											className="btn btn-sm btn-primary px-3"
-											style={{ borderRadius: '0 30px 30px 0' }}
-										>
-											Book Now
-										</a>
+									<div className="d-flex border-bottom">
+										<small className="flex-fill text-center border-end py-2">
+											<i className="fa fa-map-marker-alt text-primary me-2" />
+											{pkg.country}
+										</small>
+										<small className="flex-fill text-center border-end py-2">
+											<i className="fa fa-calendar-alt text-primary me-2" />
+											{pkg.day} ngày
+										</small>
+										<small className="flex-fill text-center py-2">
+											<i className="fa fa-user text-primary me-2" />
+											{pkg.quantity} người
+										</small>
 									</div>
-								</div>
-							</div>
-						</div>
-						<div
-							className="col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay="0.3s"
-						>
-							<div className="package-item">
-								<div className="overflow-hidden">
-									<img
-										className="img-fluid"
-										src="/public/assets/img/package-2.jpg"
-										alt=""
-									/>
-								</div>
-								<div className="d-flex border-bottom">
-									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-map-marker-alt text-primary me-2" />
-										Indonesia
-									</small>
-									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-calendar-alt text-primary me-2" />3 days
-									</small>
-									<small className="flex-fill text-center py-2">
-										<i className="fa fa-user text-primary me-2" />2 Person
-									</small>
-								</div>
-								<div className="text-center p-4">
-									<h3 className="mb-0">$139.00</h3>
-									<div className="mb-3">
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-									</div>
-									<p>
-										Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
-										diam amet diam eos
-									</p>
-									<div className="d-flex justify-content-center mb-2">
-										<a
-											href="#"
-											className="btn btn-sm btn-primary px-3 border-end"
-											style={{ borderRadius: '30px 0 0 30px' }}
-										>
-											Read More
-										</a>
-										<a
-											href="#"
-											className="btn btn-sm btn-primary px-3"
-											style={{ borderRadius: '0 30px 30px 0' }}
-										>
-											Book Now
-										</a>
+									<div className="text-center p-4">
+										<h3 className="mb-0">{pkg.price.toLocaleString()}đ</h3>
+										<div className="mb-3">
+											{[...Array(5)].map((_, i) => (
+												<small key={i} className="fa fa-star text-primary" />
+											))}
+										</div>
+										<p>{pkg.description}</p>
+										<div className="d-flex justify-content-center mb-2">
+											<a
+												href="#"
+												className="btn btn-sm btn-primary px-3 border-end"
+												style={{ borderRadius: '30px 0 0 30px' }}
+											>
+												Xem thêm
+											</a>
+											<a
+												href={`/Dashboard/6/Checkout/${pkg.id}`}
+												className="btn btn-sm btn-primary px-3"
+												style={{ borderRadius: '0 30px 30px 0' }}
+											>
+												Đặt ngay
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div
-							className="col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay="0.5s"
-						>
-							<div className="package-item">
-								<div className="overflow-hidden">
-									<img
-										className="img-fluid"
-										src="/public/assets/img/package-3.jpg"
-										alt=""
-									/>
-								</div>
-								<div className="d-flex border-bottom">
-									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-map-marker-alt text-primary me-2" />
-										Malaysia
-									</small>
-									<small className="flex-fill text-center border-end py-2">
-										<i className="fa fa-calendar-alt text-primary me-2" />3 days
-									</small>
-									<small className="flex-fill text-center py-2">
-										<i className="fa fa-user text-primary me-2" />2 Person
-									</small>
-								</div>
-								<div className="text-center p-4">
-									<h3 className="mb-0">$189.00</h3>
-									<div className="mb-3">
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-										<small className="fa fa-star text-primary" />
-									</div>
-									<p>
-										Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit
-										diam amet diam eos
-									</p>
-									<div className="d-flex justify-content-center mb-2">
-										<a
-											href="#"
-											className="btn btn-sm btn-primary px-3 border-end"
-											style={{ borderRadius: '30px 0 0 30px' }}
-										>
-											Read More
-										</a>
-										<a
-											href="#"
-											className="btn btn-sm btn-primary px-3"
-											style={{ borderRadius: '0 30px 30px 0' }}
-										>
-											Book Now
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
+						))}
 					</div>
 				</div>
 			</div>
@@ -464,23 +353,22 @@ export default function Home() {
 					<div className="booking p-5">
 						<div className="row g-5 align-items-center">
 							<div className="col-md-6 text-white">
-								<h6 className="text-white text-uppercase">Booking</h6>
-								<h1 className="text-white mb-4">Online Booking</h1>
+								<h6 className="text-white text-uppercase">Đặt chỗ</h6>
+								<h1 className="text-white mb-4">Đặt chỗ trực tuyến</h1>
 								<p className="mb-4">
-									Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-									Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.
+									Tận hưởng sự tiện lợi của việc đặt chỗ trực tuyến. Tiết kiệm
+									thời gian và dễ dàng quản lý lịch trình của bạn.
 								</p>
 								<p className="mb-4">
-									Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-									Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-									sed stet lorem sit clita duo justo magna dolore erat amet
+									Dù bạn muốn đặt tour du lịch, phòng khách sạn hay vé máy bay,
+									chúng tôi đều có thể đáp ứng mọi nhu cầu của bạn.
 								</p>
 								<a className="btn btn-outline-light py-3 px-5 mt-2" href="">
-									Read More
+									Xem thêm
 								</a>
 							</div>
 							<div className="col-md-6">
-								<h1 className="text-white mb-4">Book A Tour</h1>
+								<h1 className="text-white mb-4">Đặt tour du lịch</h1>
 								<form>
 									<div className="row g-3">
 										<div className="col-md-6">
@@ -489,9 +377,9 @@ export default function Home() {
 													type="text"
 													className="form-control bg-transparent"
 													id="name"
-													placeholder="Your Name"
+													placeholder="Tên của bạn"
 												/>
-												<label htmlFor="name">Your Name</label>
+												<label htmlFor="name">Tên của bạn</label>
 											</div>
 										</div>
 										<div className="col-md-6">
@@ -500,9 +388,9 @@ export default function Home() {
 													type="email"
 													className="form-control bg-transparent"
 													id="email"
-													placeholder="Your Email"
+													placeholder="Email của bạn"
 												/>
-												<label htmlFor="email">Your Email</label>
+												<label htmlFor="email">Email của bạn</label>
 											</div>
 										</div>
 										<div className="col-md-6">
@@ -515,11 +403,11 @@ export default function Home() {
 													type="text"
 													className="form-control bg-transparent datetimepicker-input"
 													id="datetime"
-													placeholder="Date & Time"
+													placeholder="Ngày & Giờ"
 													data-target="#date3"
 													data-toggle="datetimepicker"
 												/>
-												<label htmlFor="datetime">Date &amp; Time</label>
+												<label htmlFor="datetime">Ngày & Giờ</label>
 											</div>
 										</div>
 										<div className="col-md-6">
@@ -528,23 +416,23 @@ export default function Home() {
 													className="form-select bg-transparent"
 													id="select1"
 												>
-													<option value={1}>Destination 1</option>
-													<option value={2}>Destination 2</option>
-													<option value={3}>Destination 3</option>
+													<option value={1}>Điểm đến 1</option>
+													<option value={2}>Điểm đến 2</option>
+													<option value={3}>Điểm đến 3</option>
 												</select>
-												<label htmlFor="select1">Destination</label>
+												<label htmlFor="select1">Điểm đến</label>
 											</div>
 										</div>
 										<div className="col-12">
 											<div className="form-floating">
 												<textarea
 													className="form-control bg-transparent"
-													placeholder="Special Request"
+													placeholder="Yêu cầu đặc biệt"
 													id="message"
 													style={{ height: 100 }}
 													defaultValue={''}
 												/>
-												<label htmlFor="message">Special Request</label>
+												<label htmlFor="message">Yêu cầu đặc biệt</label>
 											</div>
 										</div>
 										<div className="col-12">
@@ -552,7 +440,7 @@ export default function Home() {
 												className="btn btn-outline-light w-100 py-3"
 												type="submit"
 											>
-												Book Now
+												Đặt ngay
 											</button>
 										</div>
 									</div>
@@ -568,9 +456,9 @@ export default function Home() {
 				<div className="container">
 					<div className="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
 						<h6 className="section-title bg-white text-center text-primary px-3">
-							Process
+							Quy trình
 						</h6>
-						<h1 className="mb-5">3 Easy Steps</h1>
+						<h1 className="mb-5">3 bước đơn giản</h1>
 					</div>
 					<div className="row gy-5 gx-4 justify-content-center">
 						<div
@@ -584,12 +472,11 @@ export default function Home() {
 								>
 									<i className="fa fa-globe fa-3x text-primary" />
 								</div>
-								<h5 className="mt-4">Choose A Destination</h5>
+								<h5 className="mt-4">Chọn điểm đến</h5>
 								<hr className="w-25 mx-auto bg-primary mb-1" />
 								<hr className="w-50 mx-auto bg-primary mt-0" />
 								<p className="mb-0">
-									Tempor erat elitr rebum clita dolor diam ipsum sit diam amet
-									diam eos erat ipsum et lorem et sit sed stet lorem sit
+									Khám phá và lựa chọn điểm đến mơ ước cho chuyến đi của bạn.
 								</p>
 							</div>
 						</div>
@@ -604,12 +491,11 @@ export default function Home() {
 								>
 									<i className="fa fa-dollar-sign fa-3x text-primary" />
 								</div>
-								<h5 className="mt-4">Pay Online</h5>
+								<h5 className="mt-4">Thanh toán online</h5>
 								<hr className="w-25 mx-auto bg-primary mb-1" />
 								<hr className="w-50 mx-auto bg-primary mt-0" />
 								<p className="mb-0">
-									Tempor erat elitr rebum clita dolor diam ipsum sit diam amet
-									diam eos erat ipsum et lorem et sit sed stet lorem sit
+									Thực hiện thanh toán trực tuyến nhanh chóng và an toàn.
 								</p>
 							</div>
 						</div>
@@ -617,19 +503,18 @@ export default function Home() {
 							className="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp"
 							data-wow-delay="0.5s"
 						>
-							<div className="position-relative border border-blue pt-5 pb-4 px-4">
+							<div className="position-relative border border-primary pt-5 pb-4 px-4">
 								<div
-									className="d-inline-flex align-items-center justify-content-center bg-blue rounded-circle position-absolute top-0 start-50 translate-middle shadow"
+									className="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow"
 									style={{ width: 100, height: 100 }}
 								>
 									<i className="fa fa-plane fa-3x text-primary" />
 								</div>
-								<h5 className="mt-4">Fly Today</h5>
+								<h5 className="mt-4">Bay ngay hôm nay</h5>
 								<hr className="w-25 mx-auto bg-primary mb-1" />
 								<hr className="w-50 mx-auto bg-primary mt-0" />
 								<p className="mb-0">
-									Tempor erat elitr rebum clita dolor diam ipsum sit diam amet
-									diam eos erat ipsum et lorem et sit sed stet lorem sit
+									Chuẩn bị hành lý và bắt đầu chuyến bay của bạn ngay.
 								</p>
 							</div>
 						</div>

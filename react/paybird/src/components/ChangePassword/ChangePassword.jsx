@@ -22,7 +22,7 @@ const ChangePassword = () => {
 	return (
 		<div className="min-h-screen flex flex-col bg-gray-100">
 			<HeaderDashboard />
-			<ToastContainer position="center" />
+			<ToastContainer position="top-right" />
 			<div className="flex-grow flex items-center justify-center">
 				<div className="bg-white p-5 rounded-xl  w-full max-w-sm flex flex-col items-center gap-4">
 					<div className="text-center font-bold text-2xl p-2">

@@ -31,7 +31,8 @@
 	{
 		"id": 6,
 		"name": "Ưu đãi khác",
-		"logo": "/src/assets/setting/coupon.png"
+		"logo": "/src/assets/setting/coupon.png",
+		"link": "/Dashboard/Offers"
 	},
 	{
 		"id": 7,

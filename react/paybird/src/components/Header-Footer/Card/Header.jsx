@@ -71,14 +71,20 @@ const Header = ({ className }) => {
 									<Link
 										to={item.href}
 										key={item.name}
-										className="rounded-md px-3 py-2 text-sm font-medium transition 
-									${item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-gray-700 hover:text-white'}"
+										className={`relative group rounded-md px-3 py-2 text-sm font-medium transition-all duration-300 
+          ${item.current ? 'text-white bg-blue-600' : 'text-gray-800 hover:text-white'}`}
 									>
-										{item.name}
+										<span className="relative z-10">{item.name}</span>
+
+										{/* Hiệu ứng màu nền hover */}
+										<span className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-600 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100 rounded-md"></span>
+
+										{/* Hiệu ứng underline trượt */}
+										<span className="absolute left-0 bottom-0 w-full h-0.5 bg-indigo-400 scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</Link>
 								))}
 							</div>
-						</div>
+						</div>	
 					</div>
 					<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 lg:pr-0">
 						<button

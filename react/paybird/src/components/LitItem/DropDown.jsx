@@ -1,10 +1,15 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MyDropdown } from '../lit-wrapper';
+import { useNavigate } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
 export function DropDown({ children }) {
 	const [isOpen, setIsOpen] = useState(false);
+	const navigate = useNavigate();
+	const handleLogin = () => {
+		navigate('/Login');
+	};
 
 	return (
 		<div
@@ -35,7 +40,7 @@ export function DropDown({ children }) {
 			</button>
 
 			{/* Menu dropdown */}
-			{isOpen && <MyDropdown></MyDropdown>}
+			{isOpen && <MyDropdown onClick={handleLogin}></MyDropdown>}
 		</div>
 	);
 }

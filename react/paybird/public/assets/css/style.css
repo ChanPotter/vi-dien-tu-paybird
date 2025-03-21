@@ -78,12 +78,10 @@
 	border-radius: 0px;
 }
 span {
-    padding: 2px 10px;  /* Thêm padding */
-    color: white; /* Màu chữ */
-    border-radius: 5px; /* Bo góc */
-    border:#3498db; /* Màu viền */
-  }
-  
+	padding: 2px 10px; /* Thêm padding */
+	border-radius: 5px; /* Bo góc */
+	border: #3498db; /* Màu viền */
+}
 
 /*** Navbar ***/
 .navbar-light .navbar-nav .nav-link {

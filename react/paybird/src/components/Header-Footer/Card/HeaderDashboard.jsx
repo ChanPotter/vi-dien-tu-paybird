@@ -98,18 +98,31 @@ const Header = ({ className }) => {
 								<div className="hidden min-[1118px]:flex items-center">
 									<div className="flex space-x-5 h-14 items-center pl-5">
 										{navigation
-											.filter((item) => item.status) // Chỉ lấy mục có status: true
+											.filter((item) => item.status)
 											.map((item) => (
 												<Link
 													to={item.href}
 													key={item.name}
-													className={`rounded-md px-3 py-2 text-[0.85rem] font-medium transition ${
-														location.pathname === item.href
-															? 'bg-gray-900 text-white'
-															: 'text-white hover:bg-gray-700 hover:text-white'
-													}`} // Hiển thị mục đang chọn
+													className={`relative group px-4 py-2 text-[0.85rem] font-medium transition-all duration-300 ease-in-out 
+            ${
+							location.pathname === item.href
+								? 'text-white bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 shadow-lg shadow-indigo-500/50'
+								: 'text-gray-300 hover:text-white'
+						}`}
 												>
-													{item.name}
+													<span className="relative z-10">{item.name}</span>
+
+													{/* Hiệu ứng underline trượt từ trái sang phải */}
+													<span
+														className="absolute left-0 bottom-0 h-0.5 bg-indigo-400 w-full scale-x-0 transition-transform 
+            duration-300 ease-in-out group-hover:scale-x-100 origin-left"
+													></span>
+
+													{/* Hiệu ứng phát sáng nhẹ khi hover */}
+													<span
+														className="absolute -inset-1 rounded-md bg-indigo-500 opacity-0 blur-md transition-all 
+            duration-300 ease-in-out group-hover:opacity-40 animate-pulse"
+													></span>
 												</Link>
 											))}
 									</div>

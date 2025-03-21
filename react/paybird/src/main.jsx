@@ -32,6 +32,10 @@ import TicketMovie from './components/TicketMovie/TicketMovie';
 import BookTour from './components/BookTour/Home';
 import Bill from './components/Bill/Bill';
 import FindBill from './components/Bill/FindBill/FindBill';
+import { Offers, OwnVourcher } from './components/Offers/index';
+import { Event, EventDetail } from './components/Event/index';
+import Checkout from './components/Checkout/Checkout';
+import { Loan, LoanDetail } from './components/Loan/index';
 
 createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
@@ -55,6 +59,8 @@ createRoot(document.getElementById('root')).render(
 				<Route path="/Dashboard/SelectBank" element={<SelectBank />} />
 				<Route path="/Dashboard/SelectBank/:id" element={<Transaction />} />
 				<Route path="/Dashboard/Deposit" element={<DepositAndWithdraw />} />
+				<Route path="/Dashboard/Offers" element={<Offers />} />
+				<Route path="/Dashboard/Offers/OwnVoucher" element={<OwnVourcher />} />
 				<Route path="/History" element={<History />} />
 				<Route path="/Setting" element={<Setting />} />
 				<Route path="/Notification" element={<Notification />} />
@@ -68,8 +74,13 @@ createRoot(document.getElementById('root')).render(
 				<Route path="/Dashboard/7/:id" element={<ComfirmTransaction />} />
 				<Route path="/Dashboard/3" element={<TicketMovie />} />
 				<Route path="/Dashboard/6" element={<BookTour />} />
+				<Route path="/Dashboard/6/Checkout/:id" element={<Checkout />} />
 				<Route path="/Dashboard/2" element={<Bill />} />
 				<Route path="/Dashboard/2/:id" element={<FindBill />} />
+				<Route path="/Dashboard/Events" element={<Event />} />
+				<Route path="/Dashboard/Events/:id" element={<EventDetail />} />
+				<Route path="/Dashboard/5" element={<Loan />} />
+				<Route path="/Dashboard/5/:id" element={<LoanDetail />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

@@ -35,12 +35,14 @@ const Utilities = () => {
 				/>
 			</Link>
 
-			<TranCard
-				title="Ưu Đãi"
-				description="Giao dịch chuyển tiền một cách nhanh chóng an toàn"
-				bgColor="#1e1e2f"
-				icon={pic4}
-			/>
+			<Link to="/Dashboard/Offers">
+				<TranCard
+					title="Ưu Đãi"
+					description="Giao dịch chuyển tiền một cách nhanh chóng an toàn"
+					bgColor="#1e1e2f"
+					icon={pic4}
+				/>
+			</Link>
 		</div>
 	);
 };

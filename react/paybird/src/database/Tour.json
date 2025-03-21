@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Thailand",
+		"image": "/public/assets/img/package-1.jpg",
+		"country": "Thailand",
+		"day": 3,
+		"quantity": 2,
+		"price": 1490000,
+		"description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos"
+	},
+	{
+		"id": 2,
+		"name": "Indonesia",
+		"image": "/public/assets/img/package-2.jpg",
+		"country": "Indonesia",
+		"day": 3,
+		"quantity": 2,
+		"price": 1490000,
+		"description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos"
+	},
+	{
+		"id": 3,
+		"name": "Malaysia",
+		"image": "/public/assets/img/package-3.jpg",
+		"country": "Malaysia",
+		"day": 3,
+		"quantity": 2,
+		"price": 1490000,
+		"description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos"
+	}
+]
